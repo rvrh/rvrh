@@ -1,0 +1,52 @@
+ 
+//Article Grid
+.inner-header-wrapper{
+	
+	 .bazz_main_heading{
+	 	position:absolute;
+		top:50%;
+		width:100%;
+		@include transform(translateY(-50%));
+
+		@include mq($min-width: 768px) {
+			padding:8.3rem 0;
+		}
+
+	 	&__1{
+		 	
+	 	}
+	 }
+
+	 &:before{
+			background-color:rgba($gray-900, .3);
+			content:'';
+			left:0;
+			right:0;
+			bottom:0;
+			top:0;
+			width:100%;
+			height:100%;
+			position:absolute;
+		}
+}
+
+.inner-header-wrapper{
+		position:relative;
+		height:250px;
+		overflow:hidden;
+
+		@include mq($min-width: 768px) {
+			height:450px;
+		}
+
+		img{
+			width:100%;
+		}
+	}
+
+
+
+
+
+
+

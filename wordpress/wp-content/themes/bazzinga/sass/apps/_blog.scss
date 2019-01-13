@@ -1,0 +1,33 @@
+//Call to Action
+
+.homepage_blog_wrap{
+	padding:3rem 0 13rem;
+	position:relative;
+
+	@include mq($min-width: 768px) {
+			padding:5rem 0 10rem;
+		}
+
+	&:before{
+		content:'';
+		position:absolute;
+		background-color:$gray-300;
+		right:0;
+		top:0;
+		bottom:0;
+		width:75%;
+		height:100%;
+
+	}
+
+	.blog-main-heading{
+			strong{
+				@include font-size(2.9);
+				font-weight:900;
+				font-family:$font__serif;
+				line-height:1.4;
+				color:$gray-900;
+				display:block;
+			}
+	}
+}

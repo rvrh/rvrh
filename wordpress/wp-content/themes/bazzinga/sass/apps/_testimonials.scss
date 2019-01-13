@@ -1,0 +1,146 @@
+//Testimonials
+
+.homepage_testimonials_wrap{
+	padding:3rem 0 ;
+	background-color:$color__background-dark;
+
+	@include mq($min-width: 768px) {
+			padding:5rem 0 ;
+		}
+
+	.testimonials_inner_image{
+		border: 5px solid transparent;
+		background-color:$white;
+		padding:.5rem;
+
+		figure{
+			margin:0;
+		}
+	}
+}
+
+.testimonial-style{
+	&__1{
+		padding:0 3rem;
+
+		@include mq($min-width: 768px) {
+			padding:0 2rem;
+		}
+
+		@include mq($min-width: 992px) {
+			padding:0 6rem;
+		}
+		
+		.bazzinga-testimonials{
+			position:relative;
+			margin-bottom:3rem;
+
+
+			figure{
+				margin:0;
+
+				img{
+					@include transform(perspective(1px));
+					@include transition(all ease .3s);
+				}
+
+				&:after{
+			 		content:'';
+			 		background-color:$white;
+			 		opacity:0;
+			 		visibility:hidden;
+			 		position:absolute;
+			 		top:0;
+			 		bottom:0;
+			 		width:100%;
+			 		height:100%;
+			 		right:0;
+			 		left:0;
+			 		@include transition(all ease .3s);
+			 	}
+			}
+
+			.testimonials_inner_detail{
+				position:absolute;
+				top:0px;
+				right:0px;
+				padding:20px 20px 0;
+				opacity:0;
+				visibility:hidden;
+				padding-bottom: 2rem;
+			}
+
+			&:hover{
+				figure{
+					img{
+						@include transform(scale(.9));
+					}
+
+					&:after{
+						opacity:1;
+				 		visibility:visible;
+					}
+				}
+
+				.testimonials_inner_detail{
+					opacity:1;
+					visibility:visible;
+				}
+			}
+
+			h3{
+				max-width:16rem;
+			}
+
+			h3 span{
+				display:block;
+			}
+
+			.address-line{
+				font-style:italic;
+			}
+
+		.social-icons{
+			position:absolute;
+			left:20px;
+			top:20px;
+			
+
+			ul{
+					margin:0;
+
+					li{
+						display:inline-block;
+						padding-left:5px;
+
+						a{
+							color:$gray-600;
+
+							&:hover{
+								color:$red;
+							}
+
+						}
+
+					 
+					}
+				}
+			}
+		}
+
+		.lSPager.lSpg > li a{
+
+			background-color:rgba($white, .1);
+			 
+		}
+
+		.lSPager.lSpg > li.active a, .lSPager.lSpg > li:hover a {
+			background-color:$red;
+		}
+ 
+
+	}
+}
+ 
+ 
+

@@ -1,0 +1,102 @@
+ 
+//button
+
+.homepage_our_approach_wrap{
+	padding:3rem 0;
+	position: relative;
+	background-color:$gray-100;
+
+	@include mq($min-width: 768px) {
+		padding:5rem 0;
+	}
+
+	&:before{
+		content:'';
+		
+
+		@include mq($min-width: 768px) {
+			content:'';
+			height:100%;
+			width:50%;
+			top:0;
+			right:0;
+			bottom:0;
+			background-color:$color__background-red;
+			position:absolute;
+
+		}
+
+		@include mq($min-width: 992px) {
+			width:45%;
+		}
+
+	}
+
+	.sub-headline{
+		color:$gray-600;
+
+		@include mq($min-width: 768px) {
+			color:$white;
+		}
+	}
+
+	h1{
+		color:$gray-800;
+
+		@include mq($min-width: 768px) {
+			color:$white;
+		}
+	}
+
+	.our-approach-desc{
+		 
+
+		@include mq($min-width: 768px) {
+			padding:2rem 0 2rem 2rem;
+		}
+
+		@include mq($min-width: 992px) {
+			padding:2rem 0 2rem 4rem;
+		}
+	}
+
+	.counter-number-list{
+		padding:1rem 0 1rem 6rem;
+		position:relative;
+
+		@include mq($min-width: 768px) {
+			padding:2rem 0 2rem 3rem;
+		}
+		
+
+		@include mq($min-width: 992px) {
+			padding:2rem 0 2rem 6rem;
+		}
+		
+		figure{
+			position:absolute;
+			left: 0;
+    		top: 50%;
+    		transform:translateY(-100%)
+
+		}
+
+		.counter-number{
+			margin:0;
+			font-weight:100;
+
+				@include mq($min-width: 768px) {
+				color:$gray-800;
+				}
+				
+				p{
+					margin:0;
+			}
+		}
+
+		.title-counter{
+			font-style:italic;
+		}
+	}
+}
+

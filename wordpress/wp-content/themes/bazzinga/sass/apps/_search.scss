@@ -1,0 +1,154 @@
+//Search
+
+.header_search_form{
+ 
+	opacity:0;
+	visibility:hidden;
+	position:fixed;
+	width:100%;
+	height:100%;
+	left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index:9999;
+    @include transition(all 800ms ease-out);
+     
+
+     
+    
+   	
+
+	
+	&:after{
+		background-color:rgba($gray-800, .9);
+		content:'';
+		position:absolute;
+		top:0;
+		left:0;
+		right:0;
+		bottom:0;
+		width:100%;
+		height:100%;
+		opacity:0;
+		visibility:hidden;
+		@include transform(translateY(-100%));
+		@include transition(all 800ms ease-out);
+ 
+	}
+
+	.header_search_close{
+		color:$gray-500;
+		position: fixed;
+	    top: 5rem;
+	    right: 5rem;
+	    @include font-size(6);
+	    z-index: 9;
+	    opacity:0;
+	    visibility:hidden;
+	    @include transform(translateY(-100%));
+	  	@include transition(all 800ms ease-out);
+    	transition-delay:  .2s;
+
+	}
+
+	form[role="search"]{
+		z-index: 99999;
+	    position: absolute;
+	    left: 0;
+	    right: 0;
+	    margin: auto;
+	    top: 0;
+	    bottom: 0;
+	    text-align: center;
+	    height: 102px;
+	    opacity:0;
+	    visibility:hidden;
+	    @include transform(translateY(-100%));
+	    @include transition(all 800ms ease-out);
+    	transition-delay:  .2s;
+    	width:calc(100% - 30%);
+    	margin:auto;
+    	padding:1.5rem;
+	}
+
+	input[type="submit"]{
+		width: 30px;
+    	height: 100%;
+    	position: absolute;
+    	top: 0;
+    	right: 0;
+    	text-indent: -999px;
+    	opacity:0;
+
+		&:after{
+			content:'';	
+		}
+	}
+
+	label{
+		display:block;
+		
+	}
+}
+
+ .slow_search_header{
+	opacity:1;
+	visibility:visible;
+	transform:translateY(0);
+
+	&:after{
+		@include transform(translateY(0));
+		opacity:1;
+		visibility:visible;
+		 
+	}
+	.header_search_close{
+	    opacity:1;
+	    visibility:visible;
+	    @include transform(translateY(0%));
+	}
+
+	form[role="search"]{
+	    opacity:1;
+	    visibility:visible;
+	    @include transform(translateY(0%));
+	}
+
+	
+
+	}
+
+	 
+
+		form.search-form, .woocommerce-product-search{
+			background-color:$gray-200;
+			@include box-shadow( 0, 3px, 6px, rgba($gray-300, 0.23));
+			padding:2rem;
+			position:relative;
+
+			label{
+				display:block;
+				margin-bottom:0;
+
+			}
+
+			input.search-submit{
+				display:none;
+			}
+
+			&:after{
+				content: "\f002";
+    			right: 42px;
+    			top: 50%;
+    			color: $gray-300;
+    			font-family: FontAwesome;
+   				font-style: normal;
+    			font-weight: normal;
+    			text-decoration: inherit;
+    			position: absolute;
+    			@include transform(translateY(-50%))
+				}
+
+		}
+ 

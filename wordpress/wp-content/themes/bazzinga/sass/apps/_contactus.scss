@@ -1,0 +1,67 @@
+ 
+//contactus
+
+.homepage_contact_us {
+	padding:5rem 0 3rem;
+	background-color:$gray-800;
+
+	
+
+	@include mq($min-width: 768px) {
+			padding:3rem 0;
+		}
+	
+}
+
+.homepage_newsletter ~ .homepage_contact_us{
+	.homepage_contact_us__wrap{
+		padding-top:8rem ;
+	}
+}
+
+.contact-style{
+
+	&__1{
+		.call-us, 
+		.email-us, 
+		.contact-address {
+			position:relative;
+			padding:0rem 2rem;
+
+			i{
+				@extend .icon-left;
+			}
+
+			strong{
+				display:block;
+			}
+		}
+
+		.social_link{
+			ul{
+				margin:0;
+				padding:0;
+			}
+
+			li{
+				display:inline-block;
+			}
+
+			a{
+				background-color:rgba($black, .3);
+				color:$white;
+				width: 38px;
+	    		height: 38px;
+	    		display: block;
+	    		margin:0 .3rem;
+	    		text-align:center;
+	    		line-height:38px;
+	    		margin-bottom:1rem;
+
+	    		&:hover{
+	    			background-color:$red;
+	    		}
+			}
+		}
+	}
+}

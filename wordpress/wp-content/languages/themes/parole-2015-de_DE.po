@@ -1,0 +1,80 @@
+# Translation of Themes - Parole 2015 in German
+# This file is distributed under the same license as the Themes - Parole 2015 package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-10-03 07:50:40+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: de\n"
+"Project-Id-Version: Themes - Parole 2015\n"
+
+#. Theme Name of the plugin/theme
+msgid "Parole 2015"
+msgstr "Parole 2015"
+
+#. Description of the plugin/theme
+msgid "Parole 2015 theme is a Twenty Fifteen WordPress child theme. Parole 2015 is a clean, simple and lightweight WordPress theme, featuring a front page with a complete post archive arranged by year rather than a traditional blog flow. It also sports fully customizable background colors for the sidebar and content, responsive design, social network links with icons, Demo: http://demo.wpneon.com/parole2015/"
+msgstr "Parole 2015 ist ein Child-Theme des bekannten Twenty Fifteen Themes. Es ist ein sauberes, einfaches und leichtgewichtiges WordPress-Theme, dessen Startseite anstelle des herkömmlichen Blog-Layouts das komplette Beitragsarchiv nach Jahren sortiert auflistet. Es bietet anpassbare Hintergrundfarben für die Seitenleiste und die Inhalte, responsives Design sowie Social-Media-Links mit Icons. Demo unter: http://demo.wpneon.com/parole2015/"
+
+#: single.php:37
+msgid "Previous post:"
+msgstr "Vorheriger Beitrag:"
+
+#: single.php:34
+msgid "Next post:"
+msgstr "Nächster Beitrag:"
+
+#: single.php:33
+msgid "Next"
+msgstr "Nächster"
+
+#: footer.php:29
+msgid "https://wordpress.org/"
+msgstr "https://de.wordpress.org/"
+
+#: footer.php:27
+msgid "Parole 2015 Theme."
+msgstr "Parole 2015 Theme."
+
+#: footer.php:26
+msgid "https://wpneon.com/parole-2015-wordpress-child-theme/"
+msgstr "https://wpneon.com/parole-2015-wordpress-child-theme/"
+
+#: footer.php:24
+msgid "All Rights Reserved."
+msgstr "Alle Rechte vorbehalten."
+
+#: archive.php:52 index.php:47
+msgid "Page"
+msgstr "Seite"
+
+#: archive.php:51 index.php:46
+msgid "Next page"
+msgstr "Nächste Seite"
+
+#: archive.php:50 index.php:45
+msgid "Previous page"
+msgstr "Vorherige Seite"
+
+#: footer.php:30
+msgid "Powered by %s"
+msgstr "Präsentiert von %s"
+
+#: single.php:36
+msgid "Previous"
+msgstr "Vorheriger"
+
+#. Author URI of the plugin/theme
+msgid "http://wpneon.com"
+msgstr "http://wpneon.com"
+
+#. Author of the plugin/theme
+msgid "WPNeon"
+msgstr "WPNeon"
+
+#. Theme URI of the plugin/theme
+msgid "http://wpneon.com/parole-2015-wordpress-child-theme/"
+msgstr "http://wpneon.com/parole-2015-wordpress-child-theme/"

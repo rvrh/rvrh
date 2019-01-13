@@ -1,0 +1,179 @@
+//Portfolio
+
+.homepage_portfolio_wrap{
+	padding:3rem 0 3rem;
+
+	@include mq($min-width: 768px) {
+			padding:5rem 0 5rem;
+		}
+
+		h1 {
+			p{
+				margin-bottom:0;
+			}
+		}
+
+		
+
+
+}
+ .portfolio_items{
+			overflow:hidden
+		}
+.portfolio-filter{
+ 	margin-bottom:3rem;
+
+ 	@include mq($min-width: 992px) {
+		margin-bottom:5rem;
+ 		margin-top:2rem;
+	}
+
+ 	li.active span, 
+ 	 li:hover span{
+  		color:$red;
+  		cursor:pointer;
+
+				
+		&:after{
+			background-color:$red;
+			opacity:1;
+			@include transform(translateY(5px));
+		} 
+ 	}
+
+
+ 	
+ }
+
+ .portfolio-style{
+
+ 	&__1{
+ 		overflow:hidden;
+
+	 	figure{
+	 		position:relative;
+	 		margin:0;
+
+	 		&:after{
+		 		content:'';
+		 		background-color:$blue;
+		 		opacity:0;
+		 		visibility:hidden;
+		 		position:absolute;
+		 		top:0;
+		 		bottom:0;
+		 		width:100%;
+		 		height:100%;
+		 		right:0;
+		 		left:0;
+		 		@include transition(all ease .3s);
+		 	}
+		}
+
+ 		&:hover{
+
+ 			figure{
+ 				&:after{
+	 				opacity:1;
+	 				visibility:visible;
+	 			}
+	 		}
+
+	 		.portfolio_content {
+	 			&__1{
+	 				
+	 				opacity:1;
+	 				visibility:visible;
+	 				@include transform(translateY(-50%));
+
+	 			}
+
+	 			.bazz_portfolio_title_link, .cat-links, .bazz_portfolio_link{
+	 				@include transform(translateY(0%));
+	 			}
+
+	 			.bazz_portfolio_title_link{
+	 				@include transition-delay(.1s);
+	 			}
+
+	 			.cat-links{
+	 				@include transition-delay(.11s);
+	 			}
+
+	 			.bazz_portfolio_link{
+	 				@include transition-delay(.12s);
+	 			}
+
+
+	 		}
+	 	}
+
+	 	.portfolio_content {
+	 		&__1{
+		 		position: absolute;
+    			text-align: center;
+			    top: 50%;
+			    opacity: 0;
+			    visibility: hidden;
+			    left:15px;
+			    right:15px;
+			 
+			    @include transition(all ease .3s);
+	 		}
+	 		 
+
+	 		.bazz_portfolio_link{
+	 			width: 35px;
+    			height: 35px;
+    			line-height: 35px;
+    			margin: auto;
+    			margin:auto;
+    			background-color:$red;
+    			color:$white;
+    			@include transition( transform .3s);
+    			display:block;
+    			@include transform(translateY(50%));
+    			margin-top: 10px;
+	 		}
+
+	 		.post-categories{
+	 			margin:0;
+	 			padding:0;
+
+	 			li{
+	 				display:inline-block;
+	 			}
+	 		}
+
+	 		.bazz_portfolio_title_link{
+	 			font-family:$font__serif;
+	 			color:$white;
+	 			@include font-size(1.2);
+	 			@include transition( transform .3s);
+	 			@include transform(translateY(50%)); 
+	 			display:block;
+
+	 		}
+
+	 		.cat-links{
+	 			
+	 			font-style:italic;
+	 			@include font-size(.9);
+	 			@include transition( transform .3s);
+	 			@include transform(translateY(50%));
+	 			 
+	 		 
+	 			 display:block;
+
+	 			a,
+	 			a:visited{
+	 				color:$white;
+	 			}
+	 		}
+	 	}
+
+
+	}
+}
+
+

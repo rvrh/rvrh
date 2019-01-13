@@ -1,0 +1,52 @@
+/*
+Theme Name:   Parole 2015
+Theme URI:    http://wpneon.com/parole-2015-wordpress-child-theme/
+Description:  Parole 2015 theme is a Twenty Fifteen WordPress child theme. Parole 2015 is a clean, simple and lightweight WordPress theme, featuring a front page with a complete post archive arranged by year rather than a traditional blog flow. It also sports fully customizable background colors for the sidebar and content, responsive design, social network links with icons, Demo: http://demo.wpneon.com/parole2015/
+Author:       WPNeon
+Author URI:   http://wpneon.com
+Template:     twentyfifteen
+Version:      1.0.3
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Tags: two-columns, left-sidebar, custom-menu, custom-colors, editor-style, featured-images, full-width-template, sticky-post, threaded-comments, theme-options, blog, translation-ready
+Text Domain:  parole-2015
+This theme, like WordPress, is licensed under the GPL.
+*/
+
+
+.site-main{ padding-bottom:3%;}
+.post-navigation, .comments-area, .list-loop {margin-top:3% !important;}
+
+.site-title a {text-shadow: 0 0 2px #111;}
+.entry-title a, .widecolumn h2{
+    color: red;
+    text-decoration: none;
+    margin-left: -2px;
+word-wrap: break-word;
+	}
+
+.post-thumbnail img { width: 100%;}
+	
+.site-info {text-align: center;}
+.site-info  p {margin-bottom:2%; font-size:14px;}
+
+.site-info span[role=separator] {     padding: 0 0.25em 0 0.25em;}
+
+.entry-comments-link:before {
+	content: '\f108';
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+	font: normal 16px/1 'Genericons';
+	vertical-align: top;
+}
+.entry-header-list{
+    margin: 0 10%;
+    margin-bottom: 3%;}
+	
+.entry-content-list li{
+border-top: 1px solid rgba(51, 51, 51, 0.1);; padding: 0.5% 0;}
+	
+.entry-content-list{ padding: 0 10% 5% 10%; list-style:none; margin-bottom:0px;}
+.entry-content-list a {display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; padding: 5px 0;}
+.entry-content-list a h2 {  -ms-word-break: break-word; word-break: break-word; font-weight:normal;margin-right: 2%;}
+.entry-content-list a time {color: rgba( 0, 0, 4, 0.4 ); white-space: nowrap; font-size:17px; }

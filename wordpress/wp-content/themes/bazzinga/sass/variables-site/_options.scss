@@ -1,0 +1,19 @@
+// DEFAULT OPTIONS
+
+// Prefix for Hover class names
+$nameSpace: 'hvr' !default;
+
+// Durations
+$fastDuration: .1s !default;
+$mediumDuration: .3s !default;
+$slowDuration: .5s !default;
+ 
+
+// Browser Prefixes - Which CSS prefixes should be used?
+$webkit: true !default;
+$moz: false !default;
+$ms: false !default;
+$o: false !default;
+
+// Compile with or without classes
+$includeClasses: true !default;

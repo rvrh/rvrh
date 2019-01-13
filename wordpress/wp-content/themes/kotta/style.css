@@ -1,0 +1,112 @@
+/*!
+Theme Name: kotta
+Theme URI: 
+Author: themealley
+Author URI:
+Description: business theme by themealley.
+Version: 1.0.2
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: kotta
+Template: kazbe
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+kotta is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+.headerContainer{
+	width: 100%;
+	padding: 10%;
+	overflow: auto;
+	background: rgba(41,41,41,1.00);
+}
+.headerImage{
+	width: 100%;
+}
+.headerContent{
+	width: 100%;
+}
+.headerContentDesc{
+	width: 100%;
+}
+.headerContent h1{
+	font-size: 2.4rem;
+	line-height: 1.2;
+	color: rgba(210,210,210,1.00);
+}
+.headerContentDesc p{
+	font-size: 1.4rem;
+	line-height: 1.2;
+	color: rgba(195,195,195,1.00);
+}
+.headerContentLink{
+	padding: 0.5em 1.5em;
+	background: rgba(220,65,67,1.00);
+	color: rgba(202,202,202,1.00);
+	font-weight: 600;
+	text-decoration: none;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	font-size: 1.0rem;
+}
+
+/* styles for less than 400px */
+@media screen 
+and (max-width : 399px) {
+
+}
+
+/* styles for 400px - 600px */
+@media screen 
+and (min-width : 400px) 
+and (max-width : 599px) {
+	
+}
+
+
+/* styles for 600px - 900px */
+@media screen 
+and (min-width : 600px) 
+and (max-width : 900px) {
+
+
+	
+}
+
+/* styles for 901px - 1200px */
+@media screen 
+and (min-width : 901px) {
+	
+	
+}
+
+@media screen 
+and (min-width : 900px)
+and (max-width : 1200px) {
+
+
+	
+}
+
+@media screen 
+and (min-width : 1201px) {
+
+	.headerImage{
+		width: 50%;
+		float: left;
+		padding: 0 10% 0 0;
+	}
+	.headerContent{
+		width: 50%;
+		float: left;
+	}
+	
+}	

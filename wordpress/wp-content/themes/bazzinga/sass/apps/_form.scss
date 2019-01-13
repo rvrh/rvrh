@@ -1,0 +1,100 @@
+ 
+//Form
+input{
+	
+}
+input[type="text"], 
+	input[type="email"], 
+	input[type="url"], 
+	input[type="password"], 
+	input[type="search"], 
+	input[type="number"], 
+	input[type="tel"], 
+	input[type="range"], 
+	input[type="date"], 
+	input[type="month"], 
+	input[type="week"], 
+	input[type="time"], 
+	input[type="datetime"], 
+	input[type="datetime-local"], 
+	input[type="color"], textarea {
+		
+		  @extend .input-style;
+		  width:100%;
+		  background-color:$gray-100;
+		  color:$gray-500;
+		
+	}
+
+
+if-bg{
+	input[type="text"], 
+	input[type="email"], 
+	input[type="url"], 
+	input[type="password"], 
+	input[type="search"], 
+	input[type="number"], 
+	input[type="tel"], 
+	input[type="range"], 
+	input[type="date"], 
+	input[type="month"], 
+	input[type="week"], 
+	input[type="time"], 
+	input[type="datetime"], 
+	input[type="datetime-local"], 
+	input[type="color"], textarea {
+		background-color:$white;
+	}
+}
+
+button, input, optgroup, select, textarea{
+	background-color:$gray-100;
+	 color:$gray-600;
+}
+
+button, 
+input[type="button"], 
+input[type="reset"], 
+input[type="submit"]{
+	@extend .btn;
+	font-family:$font__code;
+
+
+	 
+}
+
+select{
+	@extend .input-style;
+	border-radius:3px;
+
+}
+
+label{
+	font-family:$font__serif;
+	color:$gray-900;
+	font-weight:600;
+ 
+}
+
+button, input[type="button"], input[type="submit"] {
+	@extend .primary-btn;
+}
+
+button.secondary-btn, 
+input[type="reset"], 
+input[type="button"].secondary, 
+input[type="reset"].secondary, 
+input[type="submit"].secondary{
+	@extend .secondary-btn;
+
+}
+
+//Contact Form
+
+div.wpcf7 .ajax-loader{
+	background-image:none;
+}
+
+ 
+
+ 

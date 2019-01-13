@@ -1,0 +1,298 @@
+# Translation of Themes - Twenty Fifteen in Kurdish (Sorani)
+# This file is distributed under the same license as the Themes - Twenty Fifteen package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-04-05 11:47:10+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ku_IQ\n"
+"Project-Id-Version: Themes - Twenty Fifteen\n"
+
+#. Description of the plugin/theme
+msgid "Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer."
+msgstr "ئەم رووکارەمان کە بە دووهەزار و پانزە ناونراوە، ڕووکارێکی بنەڕەتە و لەگەڵ هەموو جۆرە لێکدانەوە و قەبارەکان بۆ ڕووپەڕ سازکراوە و لە هەموو جۆرە ئامێرەکان لە تەلەفۆنی هۆشمەندەوە بۆ لاپتۆپ و کۆمیوتەری ڕوومێز چارەی بینین و دووریەکانی کراوە. هەروەها کۆدەکانی پاکنووسی تەواوی بۆ کراوە. "
+
+#. Theme Name of the plugin/theme
+msgid "Twenty Fifteen"
+msgstr "بیست و پینج"
+
+#. translators: %s: post title
+#: inc/template-tags.php:130
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "لێدوانیک بەجێ بهێلە<span class=\"screen-reader-text\"> لەسەر %s</span>"
+
+#: single.php:39
+msgid "Previous post:"
+msgstr "بابەتی پێشوو:"
+
+#: single.php:38
+msgid "Previous"
+msgstr "پێشوو"
+
+#: single.php:36
+msgid "Next post:"
+msgstr "بابەتی داهاتوو:"
+
+#: single.php:35
+msgid "Next"
+msgstr "دواتر"
+
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr "ئەنجامەکانی گەڕان بۆ: %s"
+
+#: inc/template-tags.php:120
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "قەبارەی تەواو"
+
+#: inc/template-tags.php:108
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "تاگ"
+
+#: inc/template-tags.php:99
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "هاوپۆلەکان"
+
+#: inc/template-tags.php:95 inc/template-tags.php:104
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr "مێتا"
+
+#: inc/template-tags.php:89
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr "نووسەر"
+
+#: inc/template-tags.php:79
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "پۆستکراوە لە"
+
+#: inc/template-tags.php:56
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "شێوە"
+
+#: inc/template-tags.php:49
+msgid "Featured"
+msgstr "بەرچاوکراو"
+
+#: inc/template-tags.php:30
+msgid "Newer Comments"
+msgstr "لێدوانە نوێیەکان"
+
+#: inc/template-tags.php:26
+msgid "Older Comments"
+msgstr "لێدوانە کۆنەکان"
+
+#: inc/template-tags.php:23
+msgid "Comment navigation"
+msgstr "ڕێنیشاندەری سەرنج"
+
+#: inc/customizer.php:226
+msgid "Blue"
+msgstr "شین"
+
+#: inc/customizer.php:215
+msgid "Purple"
+msgstr "مۆر"
+
+#: inc/customizer.php:204
+msgid "Pink"
+msgstr "پەمەیی"
+
+#: inc/customizer.php:193
+msgid "Yellow"
+msgstr "زەرد"
+
+#: inc/customizer.php:182
+msgid "Dark"
+msgstr "تاریک"
+
+#: inc/customizer.php:171
+msgid "Default"
+msgstr "بنه‌ڕه‌ت"
+
+#: inc/customizer.php:93
+msgid "Header and Sidebar Background Color"
+msgstr "ڕەنگی پاشبنەمای نیوچەوان و لاتەنیشت"
+
+#: inc/customizer.php:72 inc/customizer.php:94 inc/customizer.php:101
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr "لەسەر نێوچەوان لەسەر شاشەی بچووک و لاتەنیشت لەسەر شاشەی پان جێبەجێ کرا."
+
+#: inc/customizer.php:71
+msgid "Header and Sidebar Text Color"
+msgstr "ڕەنگی دەقی نێوچەوان و لاتەنیشت"
+
+#: inc/customizer.php:51
+msgid "Base Color Scheme"
+msgstr "خشتەی ڕەنگی بنەما"
+
+#: inc/back-compat.php:37 inc/back-compat.php:48 inc/back-compat.php:62
+msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "بۆ بەکارهێنانی بیست و پینج دەبیت دوایین وەشانی ٤.١ی وۆردپرێس بەکار بهێنیت. تۆ وەشانی  %s بەکاردەهێنیت. تکایە نویی بکەوە و دووبارە هەوڵ بدەرەوە."
+
+#: image.php:88
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">بڵاوکراوەتەوە لە</span><span class=\"post-title\">%title</span>"
+
+#: image.php:25
+msgid "Next Image"
+msgstr "وێنەی داهاتوو"
+
+#: image.php:25
+msgid "Previous Image"
+msgstr "وینەی پێشوو"
+
+#: header.php:49
+msgid "Menu and widgets"
+msgstr "لیستە و ویجتەکان"
+
+#: header.php:26
+msgid "Skip to content"
+msgstr "بازدان بۆ ناوه‌ڕۆك"
+
+#: functions.php:312
+msgid "collapse child menu"
+msgstr "لیستەی منداڵ کۆ بکەوە"
+
+#: functions.php:311
+msgid "expand child menu"
+msgstr "لیستەی منداڵ فراوان بکە"
+
+#. Translators: To add an additional character subset specific to your
+#. language, translate this to 'greek', 'cyrillic', 'devanagari' or
+#. 'vietnamese'. Do not translate into your own language.
+#: functions.php:238
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr "بەبێ-بەش"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Inconsolata, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:230
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr "لە"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Noto Serif, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:222
+msgctxt "Noto Serif font: on or off"
+msgid "on"
+msgstr "لە"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Noto Sans, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:214
+msgctxt "Noto Sans font: on or off"
+msgid "on"
+msgstr "لە"
+
+#: functions.php:187
+msgid "Add widgets here to appear in your sidebar."
+msgstr "ویجیتەکانت لێرە زیاد بکە تا لە لاتەنیشت دەربکەوێت."
+
+#: functions.php:185
+msgid "Widget Area"
+msgstr "ناوچەی لاتەنیشت"
+
+#: functions.php:87
+msgid "Social Links Menu"
+msgstr "لیستەی بەستەری یۆڕە کۆمەڵایەتییەکان"
+
+#: functions.php:86
+msgid "Primary Menu"
+msgstr "پێرستی سەرەتایی"
+
+#: footer.php:31
+msgid "Proudly powered by %s"
+msgstr "بە شانازییەوە وەشێنراوە لە لایەن %s"
+
+#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 2.0)  #-#-#-#-#
+#. Author URI of the plugin/theme
+#: footer.php:30
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: content-none.php:31
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "ئەمە لەوە دەچیت کە تۆ بەدوای دەگەڕێی. لەوانەیە گەڕان یارمەتیت بدات"
+
+#: content-none.php:26
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "ببورە، بەڵام هیچ شتێک وەک ئەوەی بۆی دەگەڕیی نەدۆزرایەوە، تکایە دووبارە هەوڵبدە بە وشەکلیلی جیاواز."
+
+#: content-none.php:22
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "ئامادەی بۆ بلاوکردنەوەی یەکەمین بابەتت؟  <a href=\"%1$s\">لیرە دەست پێبکە</a>."
+
+#: content-none.php:15
+msgid "Nothing Found"
+msgstr "هیچ نەدۆزرایەوە"
+
+#: content-link.php:60 content-page.php:37 content-search.php:28
+#: content-search.php:33 content.php:61 image.php:74
+msgid "Edit"
+msgstr "ده‌ستكاری"
+
+#: content-link.php:39 content-page.php:26 content.php:41 image.php:61
+msgid "Pages:"
+msgstr "په‌ڕه‌كان:"
+
+#. translators: %s: Name of current post
+#: content-link.php:32 content.php:34 inc/template-tags.php:249
+msgid "Continue reading %s"
+msgstr "بەردەوام بە لە خویندنەوەی %s"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "لێدووان داخراوە ."
+
+#: author-bio.php:34
+msgid "View all posts by %s"
+msgstr "بینینی هەمووی پەیامەکان لە لایەن %s"
+
+#: author-bio.php:12
+msgid "Published by"
+msgstr "بڵاوکراوەتەوە لە لایەن"
+
+#: archive.php:53 content-link.php:43 content-page.php:30 content.php:45
+#: image.php:65 index.php:50 search.php:43
+msgid "Page"
+msgstr "لاپەڕە"
+
+#: archive.php:52 index.php:49 search.php:42
+msgid "Next page"
+msgstr "په‌ڕه‌ی داهاتوو"
+
+#: archive.php:51 index.php:48 search.php:41
+msgid "Previous page"
+msgstr "په‌ڕه‌ی پێشوو"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "ئەمە وەک ئەوەی لەم شوێنە هیچ شتێک نەدۆزراوەتەوە. دەشێ دووبارە بگەڕێی؟"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "ئۆه! ئەم لاپەڕەیە نەدۆزرایەوە."
+
+#. Author of the plugin/theme
+msgid "the WordPress team"
+msgstr "تیمی وۆردپێس"
+
+#. Theme URI of the plugin/theme
+msgid "https://wordpress.org/themes/twentyfifteen/"
+msgstr "https://wordpress.org/themes/twentyfifteen/"

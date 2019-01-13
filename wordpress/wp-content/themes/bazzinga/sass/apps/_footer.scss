@@ -1,0 +1,62 @@
+ 
+//Footer
+
+.homepage_footer_bottom_wrap{
+
+	background-color:$gray-900;
+	padding:3rem 0;
+
+	@include mq($min-width: 768px) {
+			padding:5rem 0 ;
+		}
+
+		.textwidget{
+			color:$gray-300
+		}
+}
+
+.navbar-brand{
+	position:relative;
+ }
+	.search-wrap{display:none;}
+
+// Main Logo Text
+
+.site-title{
+	font-family:$font__serif;
+	@include font-size(1.5);
+}
+
+.footer_heading{
+	h2{
+		display:none;
+	}
+}
+
+
+.footer_copyright_wrap{
+	background-color:$gray-800;
+	padding:1rem 0;
+}
+
+.bazzinga_move_to_top {
+  float: right;
+  bottom: 1em;
+  border: 1px solid #000;
+  padding: 0.5em 0.75em;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+  z-index: 99999;
+  position: fixed;
+  right: 2%;
+  display: none;
+    &:hover, &:focus, &:visited{
+      background-color: #000;
+      color: #fff;
+      list-style: none;
+      text-decoration: none;
+      outline: none;
+    }
+}

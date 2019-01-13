@@ -1,0 +1,312 @@
+# Translation of Themes - Twenty Fifteen in Uighur
+# This file is distributed under the same license as the Themes - Twenty Fifteen package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-04-10 10:26:16+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ug_CN\n"
+"Project-Id-Version: Themes - Twenty Fifteen\n"
+
+#. Description of the plugin/theme
+msgid "Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer."
+msgstr "بىزنىڭ 2015 سۈكۈتتىكى باشتېمىمىز پاكىزە، بىلوگ نىشانلانغان ۋە لايىھە ئېنىق. Twenty Fifteen (ئىككى مىڭ ئون بەش) نىڭ ئاددىي، بىۋاسىتە باسما تېخنىكىسى ھەرخىل ئۆلچەمدىكى ئېكراندا ئوقۇشچانلىقى ياخشى، كۆپ خىل تىللارغا ماسلىشالايدۇ. بىز ئۇنى ئالدى بىلەن يان تېلېفونغا ماسلاشتۇرغان بولۇپ، دېمەكچى بولغىنىمىز مەزمۇن ئوتتۇرىدا كۆرۈنىدۇ، مەيلى سىز ئەقلىي تېلېفوندا، تاختا كومپيۇتېردا، خاتىرە كومپيۇتېردا ياكى ئۈستەل كومپيۇتېرىدا كۆرسىتىشنى ئويلاشمىسىڭىزمۇ بولىدۇ."
+
+#. Theme Name of the plugin/theme
+msgid "Twenty Fifteen"
+msgstr "Twenty Fifteen (ئىككى مىڭ ئون بەش)"
+
+#. translators: %s: post title
+#: comments.php:31
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "«%s:» كە بىر باھا بار."
+
+#. translators: %s: post title
+#: inc/template-tags.php:130
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "باھا قالدۇرۇش<span class=\"screen-reader-text\"> ۋاقتى %s</span>"
+
+#: single.php:39
+msgid "Previous post:"
+msgstr "ئالدىنقى يازما:"
+
+#: single.php:38
+msgid "Previous"
+msgstr "ئالدىنقى"
+
+#: single.php:36
+msgid "Next post:"
+msgstr "كېيىنكى يازما:"
+
+#: single.php:35
+msgid "Next"
+msgstr "كېيىنكى"
+
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr "%s ئۈچۈن ئىزدەش نەتىجىسى"
+
+#: inc/template-tags.php:120
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "تولۇق چوڭلۇقى"
+
+#: inc/template-tags.php:108
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "خەتكۈشلەر"
+
+#: inc/template-tags.php:99
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "سەھىپىلەر"
+
+#: inc/template-tags.php:95 inc/template-tags.php:104
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr "،"
+
+#: inc/template-tags.php:89
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr "ئاپتور"
+
+#: inc/template-tags.php:79
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "يوللانغان ۋاقتى"
+
+#: inc/template-tags.php:56
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "فورمات"
+
+#: inc/template-tags.php:49
+msgid "Featured"
+msgstr "تەۋسىيەلىك"
+
+#: inc/template-tags.php:30
+msgid "Newer Comments"
+msgstr "يېڭىراق باھالار"
+
+#: inc/template-tags.php:26
+msgid "Older Comments"
+msgstr "كونىراق باھالار"
+
+#: inc/template-tags.php:23
+msgid "Comment navigation"
+msgstr "باھا يولباشچىسى"
+
+#: inc/customizer.php:226
+msgid "Blue"
+msgstr "كۆك"
+
+#: inc/customizer.php:215
+msgid "Purple"
+msgstr "بىنەپشە"
+
+#: inc/customizer.php:204
+msgid "Pink"
+msgstr "ھالرەڭ"
+
+#: inc/customizer.php:193
+msgid "Yellow"
+msgstr "سېرىق"
+
+#: inc/customizer.php:182
+msgid "Dark"
+msgstr "قېنىق"
+
+#: inc/customizer.php:171
+msgid "Default"
+msgstr "سۈكۈتتىكى"
+
+#: inc/customizer.php:93
+msgid "Header and Sidebar Background Color"
+msgstr "بەت قېشى ۋە يانبالداق تەگلىك رەڭگى"
+
+#: inc/customizer.php:72 inc/customizer.php:94 inc/customizer.php:101
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr "بەت قېشىنى كىچىك ئېكراندا، يانبالداقنى كەڭ ئېكراندا قوللىنىش"
+
+#: inc/customizer.php:71
+msgid "Header and Sidebar Text Color"
+msgstr "بەت بېشى ۋە يانبالداق تېكىست رەڭگى"
+
+#: inc/customizer.php:51
+msgid "Base Color Scheme"
+msgstr "ئاساسىي رەڭ لايىھىسى"
+
+#: inc/back-compat.php:37 inc/back-compat.php:48 inc/back-compat.php:62
+msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "Twenty Fifteen (ئىككى مىڭ ئون بەش) تۆۋەن بولغاندىمۇ WordPress نىڭ 4.1 نەشرىنى تەلەپ قىلىدۇ. سىز ئىجرا قىلىۋاتقان نەشرىڭىز %s ئىكەن، دەرىجىسىنى ئۆستۈرۈپ قايتا سىناپ بېقىڭ."
+
+#: image.php:88
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">ئېلان قىلىنغان ئورنى</span><span class=\"post-title\">%title</span>"
+
+#: image.php:25
+msgid "Next Image"
+msgstr "كېيىنكى رەسىم"
+
+#: image.php:25
+msgid "Previous Image"
+msgstr "ئالدىنقى رەسىم"
+
+#: header.php:49
+msgid "Menu and widgets"
+msgstr "تىزىملىك ۋە كىچىك قوراللار"
+
+#: header.php:26
+msgid "Skip to content"
+msgstr "مەزمۇنغا ئاتلاش"
+
+#: functions.php:312
+msgid "collapse child menu"
+msgstr "بالا تىزىملىكنى يىغىش"
+
+#: functions.php:311
+msgid "expand child menu"
+msgstr "بالا تىزىملىكنى يېيىش"
+
+#. Translators: To add an additional character subset specific to your
+#. language, translate this to 'greek', 'cyrillic', 'devanagari' or
+#. 'vietnamese'. Do not translate into your own language.
+#: functions.php:238
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr "تارماق توپلام يوق"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Inconsolata, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:230
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Noto Serif, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:222
+msgctxt "Noto Serif font: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Noto Sans, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:214
+msgctxt "Noto Sans font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:187
+msgid "Add widgets here to appear in your sidebar."
+msgstr "يانبالداقتا كۆرسىتىش ئۈچۈن كىچىك قوراللارنى بۇ يەرگە قوشۇڭ."
+
+#: functions.php:185
+msgid "Widget Area"
+msgstr "كىچىك قوراللار"
+
+#: functions.php:87
+msgid "Social Links Menu"
+msgstr "ئىجتىمائىي ئۇلانمىلار تىزىملىكى"
+
+#: functions.php:86
+msgid "Primary Menu"
+msgstr "ئاساسىي تىزىملىك"
+
+#: footer.php:31
+msgid "Proudly powered by %s"
+msgstr "پەخىرلىك %s تە قۇرۇلدى"
+
+#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 2.0)  #-#-#-#-#
+#. Author URI of the plugin/theme
+#: footer.php:30
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: content-none.php:31
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "نېمە ئىزدەۋاتقانلىقىڭىزنى تاپالماي قالغاندەك قىلىمىز. بەلكىم ئىزدەش ياردەم بېرەلەيدۇ."
+
+#: content-none.php:26
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "كەچۈرۈڭ، ئىزدەش شەرتىڭىزگە ماس كېلىدىغان مەزمۇن يوق. ئوخشىمايدىغان ھالقىلىق سۆز بىلەن قايتا ئىزدەپ بېقىڭ."
+
+#: content-none.php:22
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "تۇنجى يازمىڭىزنى ئېلان قىلىشقا تەييارلاندىڭىزمۇ؟ <a href=\"%1$s\">ئەمىسە بۇ يەردىن باشلاڭ</a>."
+
+#: content-none.php:15
+msgid "Nothing Found"
+msgstr "ھېچنېمە تېپىلمىدى"
+
+#: content-link.php:60 content-page.php:37 content-search.php:28
+#: content-search.php:33 content.php:61 image.php:74
+msgid "Edit"
+msgstr "تەھرىرلەش"
+
+#: content-link.php:39 content-page.php:26 content.php:41 image.php:61
+msgid "Pages:"
+msgstr "بەتلەر:"
+
+#. translators: %s: Name of current post
+#: content-link.php:32 content.php:34 inc/template-tags.php:249
+msgid "Continue reading %s"
+msgstr "%s نى داۋاملىق ئوقۇش"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "ئىنكاس يېزىش چەكلەنگەن."
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:35
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s نىڭ «%2$s» گە باھاسى بار."
+msgstr[1] "%1$s نىڭ «%2$s» گە باھالىرى بار."
+
+#: author-bio.php:34
+msgid "View all posts by %s"
+msgstr "«%s»نىڭ بارلىق يازمىلىرىنى كۆرۈش"
+
+#: author-bio.php:12
+msgid "Published by"
+msgstr "تارقىتىلغان ئورۇن:"
+
+#: archive.php:53 content-link.php:43 content-page.php:30 content.php:45
+#: image.php:65 index.php:50 search.php:43
+msgid "Page"
+msgstr "بەت"
+
+#: archive.php:52 index.php:49 search.php:42
+msgid "Next page"
+msgstr "كېيىنكى بەت"
+
+#: archive.php:51 index.php:48 search.php:41
+msgid "Previous page"
+msgstr "ئالدىنقى بەت"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "بۇ ئورۇندىن ھېچنەرسە تېپىلمىدى. بەلكىم ئىزدەپ بېقىڭ."
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "ئاپلا! ئۇ بەت تېپىلمىدى"
+
+#. Author of the plugin/theme
+msgid "the WordPress team"
+msgstr "WordPress كوللېكتىپى"
+
+#. Theme URI of the plugin/theme
+msgid "https://wordpress.org/themes/twentyfifteen/"
+msgstr "https://wordpress.org/themes/twentyfifteen/"

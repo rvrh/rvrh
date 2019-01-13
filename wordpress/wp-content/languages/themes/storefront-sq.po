@@ -1,0 +1,468 @@
+# Translation of Storefront in Albanian
+# This file is distributed under the same license as the Storefront package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-03-19 17:32:49+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.1.0-alpha\n"
+"Project-Id-Version: Storefront\n"
+
+#. Description of the plugin/theme
+msgid "Storefront is the perfect theme for your next WooCommerce project. Designed and developed by WooThemes, it features a deep integration with our market leading WooCommerce plugin, several layout & color options to personalise your shop, multiple widget regions, a responsive design and much more. Developers will love it's lean and extensible codebase making it a joy to customise and extend. Looking for a WooCommerce theme? Look no further!"
+msgstr "Storefront është tema e përsosur për projektin tuaj të ardhshëm WooCommerce. Konceptuar dhe krijuar nga WooThemes, ajo ofron integrim të thellë me shtojcën tonë më të suksesshme në treg, WooCommerce, disa mundësi skeme grafike & ngjyrash për të personalizuar shitoren tuaj, fusha të shumta widget-esh, një skemë grafike reaguese, dhe plot gjëra të tjera. Zhvilluesve do t&#8217;u pëlqejë pjesa bazë e kodit, e kursyer dhe e zgjerueshme, çka e bën të dashur përshtatjen dhe zgjerimin e saj. Po kërkoni një temë WooCommerce? Mos kërkoni më tej!"
+
+#. Theme Name of the plugin/theme
+msgid "Storefront"
+msgstr "Storefront"
+
+#: inc/functions/setup.php:114
+msgid "Below Header"
+msgstr "Nën Kryet"
+
+#: inc/customizer/controls/more.php:20
+msgid "Enjoying %s?"
+msgstr "Ju pëlqen %s?"
+
+#: inc/admin/welcome-screen/sections/intro.php:57
+msgid "Customizer settings"
+msgstr "Rregullime përshtatësi"
+
+#: inc/admin/welcome-screen/sections/intro.php:30
+msgid "Latest %s news"
+msgstr "Lajmet më të reja %s"
+
+#: inc/admin/welcome-screen/sections/intro.php:33
+msgid "Recent News"
+msgstr "Lajme Së Fundi"
+
+#: inc/admin/welcome-screen/sections/intro.php:53
+msgid "Featured Docs"
+msgstr "Dokumentim Mbi të Zgjedhurat"
+
+#: inc/admin/welcome-screen/sections/intro.php:55
+msgid "Installation &amp; configuration"
+msgstr "Instalim &amp; formësim"
+
+#: inc/admin/welcome-screen/sections/intro.php:56
+msgid "FAQ"
+msgstr "FAQ"
+
+#: inc/admin/welcome-screen/sections/intro.php:23
+msgid "%s is activated"
+msgstr "%s është i aktivizuar"
+
+#: inc/admin/welcome-screen/sections/contribute.php:11
+msgid "Contribute to Storefront"
+msgstr "Jepni Ndihmesë te Storefront"
+
+#: inc/admin/welcome-screen/sections/contribute.php:16
+msgid "Suggest a feature"
+msgstr "Sugjeroni një veçori"
+
+#: inc/admin/welcome-screen/sections/contribute.php:17
+msgid "Please suggest and vote on ideas at the %s%s Ideas board%s. The most popular ideas will see prioritised development."
+msgstr "Ju lutemi, sugjeroni dhe votoni për idetë te %s%s Ideasboard%s. Idetë më popullore do të gëzojnë përparësi në zhvillim."
+
+#: inc/admin/welcome-screen/sections/contribute.php:22
+msgid "An %s project"
+msgstr "Një projekt %s"
+
+#: inc/admin/welcome-screen/sections/enhance.php:12
+msgid "Enhance %s"
+msgstr "Thelloni %s"
+
+#: inc/admin/welcome-screen/sections/enhance.php:14
+msgid "Take a look at our range of extensions that compliment and extend %s functionality."
+msgstr "Hidhini një sy gamës tonë të zgjerimeve që plotësojnë dhe thellojnë punën e %s-it."
+
+#: inc/admin/welcome-screen/sections/enhance.php:30
+msgid "View all %s extensions &rarr;"
+msgstr "Shihni krejt zgjerimet %s &rarr;"
+
+#: inc/admin/welcome-screen/sections/enhance.php:38
+msgid "There are a number of free plugins available for %s on the WordPress.org %splugin repository%s. Here are just a few:"
+msgstr "Ka një numër shtojcash të lira gati për %s te %sdepoja e shtojcave%s në WordPress.org. Ja pak prej tyre:"
+
+#: inc/admin/welcome-screen/sections/enhance.php:50
+msgid "Child themes"
+msgstr "Tema pjella"
+
+#: inc/admin/welcome-screen/sections/enhance.php:51
+msgid "Take a look at our range of child themes for %s that allow you to easily change the look of your store to suit a specific industry."
+msgstr "Hidhuni një sy gamës sonë të temave pjella për %s, që ju lejojnë të ndryshoni lehtë pamjen e shitores suaj, për t&#8217;ia përshtatur një industrie të caktuar."
+
+#: inc/admin/welcome-screen/sections/enhance.php:83
+msgid "View all %s child themes &rarr;"
+msgstr "Shihni krejt temat pjella %s &rarr;"
+
+#: inc/admin/welcome-screen/sections/intro.php:14
+msgid "%sEnjoying %s?%s Why not %sleave a review%s on WordPress.org? We'd really appreciate it!"
+msgstr "%sJu pëlqen %s?%s Pse të mos %slini përshtypjet%s te WordPress.org? Do ta vlerësonim vërtet!"
+
+#: inc/admin/welcome-screen/sections/intro.php:18
+msgid "Built to enrich your %s store"
+msgstr "Krijuar për pasurimin e shitores suaj %s"
+
+#: inc/admin/welcome-screen/sections/intro.php:25
+msgid "Install %s"
+msgstr "Instalo %s"
+
+#: inc/woocommerce/template-tags.php:160
+msgid "New In Store"
+msgstr "E Re Në Shitore"
+
+#: inc/woocommerce/template-tags.php:152
+msgid "On Sale Now"
+msgstr "Tani Me Ulje Çmimi"
+
+#: inc/structure/post.php:116
+msgctxt "Previous post"
+msgid "Previous"
+msgstr "I mëparshmi"
+
+#: inc/structure/post.php:115
+msgctxt "Next post"
+msgid "Next"
+msgstr "Pasuesi"
+
+#: inc/customizer/controls.php:124
+msgid "Header background image"
+msgstr "Figurë sfond kryesh"
+
+#: inc/admin/welcome-screen/sections/enhance.php:36
+msgid "Install free plugins"
+msgstr "Instaloni shtojca falas"
+
+#: inc/admin/welcome-screen/sections/enhance.php:77
+msgid "Free!"
+msgstr "Falas!"
+
+#: inc/admin/welcome-screen/sections/enhance.php:55
+#: inc/admin/welcome-screen/sections/enhance.php:62
+msgid "Proshop Child Theme"
+msgstr "Temë Pjellë e temës Proshop"
+
+#: 404.php:22
+msgid "Nothing was found at this location. Try searching, or check out the links below."
+msgstr "Nuk u gjet gjë në këtë vend. Provoni të kërkoni, ose hidhuni një sy këtyre lidhjeve."
+
+#: 404.php:54
+msgid "Popular Products"
+msgstr "Produkte Popullore"
+
+#. Template Name of the plugin/theme
+msgid "Homepage"
+msgstr "Faqe Hyrëse"
+
+#. Template Name of the plugin/theme
+msgid "Full width"
+msgstr "Gjerësi e plotë"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Përfundime Kërkimi për: %s"
+
+#: inc/woocommerce/template-tags.php:19
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d objekt"
+msgstr[1] "%d objekte"
+
+#: inc/structure/template-tags.php:187
+msgid "On Sale"
+msgstr "Me Ulje Çmimi"
+
+#: inc/woocommerce/template-tags.php:18
+msgid "View your shopping cart"
+msgstr "Shihni shportën tuaj të blerjeve"
+
+#: inc/structure/template-tags.php:148
+msgid "Top Rated Products"
+msgstr "Produktet Më të Vlerësuara"
+
+#: inc/structure/template-tags.php:107 inc/woocommerce/template-tags.php:144
+msgid "Featured Products"
+msgstr "Produkte të Zgjedhura"
+
+#: 404.php:45 inc/structure/template-tags.php:26
+msgid "Product Categories"
+msgstr "Kategori Produktesh"
+
+#: inc/structure/template-tags.php:67
+msgid "Recent Products"
+msgstr "Produkte Së Fundi"
+
+#: inc/structure/post.php:159
+msgctxt "post author"
+msgid "by %s"
+msgstr "nga %s"
+
+#: inc/structure/post.php:154
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Postuar më %s"
+
+#: inc/structure/post.php:99
+msgid "% Comments"
+msgstr "% Komente"
+
+#: inc/structure/post.php:99
+msgid "1 Comment"
+msgstr "1 Koment"
+
+#: inc/structure/post.php:99
+msgid "Leave a comment"
+msgstr "Lini një koment"
+
+#: inc/structure/post.php:90
+msgid "Tags: "
+msgstr "Etiketa: "
+
+#: inc/structure/post.php:77
+msgid "Categories: "
+msgstr "Kategori: "
+
+#. translators: used between list items, there is a space after the comma
+#: inc/structure/post.php:72 inc/structure/post.php:85
+msgid ", "
+msgstr ", "
+
+#: inc/structure/post.php:45
+msgid "Continue reading %s"
+msgstr "Vazhdoni leximin e %s"
+
+#: inc/structure/page.php:36 inc/structure/post.php:51
+msgid "Pages:"
+msgstr "Faqe:"
+
+#: inc/structure/header.php:107
+msgid "Skip to content"
+msgstr "Hidhu te lënda"
+
+#: inc/structure/header.php:84
+msgid "Secondary Navigation"
+msgstr "Orientimi Dytësor"
+
+#: inc/structure/header.php:106
+msgid "Skip to navigation"
+msgstr "Kaloni te lëvizja"
+
+#: inc/structure/header.php:55
+msgid "Navigation"
+msgstr "Lëvizje"
+
+#: inc/structure/header.php:54
+msgid "Primary Navigation"
+msgstr "Orientimi Parësor"
+
+#: inc/structure/footer.php:60
+msgid "%1$s designed by %2$s."
+msgstr "%1$s hartuar nga %2$s."
+
+#: inc/structure/comments.php:59
+msgid "Edit"
+msgstr "Përpunim"
+
+#: inc/structure/comments.php:43
+msgid "Your comment is awaiting moderation."
+msgstr "Komenti juaj po pret moderimin."
+
+#: inc/structure/comments.php:40
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr "<cite class=\"fn\">%s</cite>"
+
+#: inc/functions/setup.php:129
+msgid "Widgetized Footer Region %d."
+msgstr "Fushë e Widget-izuar Fundfaqeje %d."
+
+#: inc/functions/setup.php:127
+msgid "Footer %d"
+msgstr "Fundfaqe %d"
+
+#: inc/functions/setup.php:104
+msgid "Sidebar"
+msgstr "Anështyllë"
+
+#: inc/functions/setup.php:62
+msgid "Handheld Menu"
+msgstr "Menu Celulari"
+
+#: inc/functions/setup.php:61
+msgid "Secondary Menu"
+msgstr "Menu Dytësore"
+
+#: inc/functions/setup.php:60
+msgid "Primary Menu"
+msgstr "Menu Parësore"
+
+#: inc/customizer/controls.php:358
+msgid "Looking for more options?"
+msgstr "Po kërkoni më tepër mundësi?"
+
+#: inc/customizer/controls.php:348
+msgid "More"
+msgstr "Më"
+
+#: inc/customizer/controls.php:335
+msgid "General Layout"
+msgstr "Skemë e Përgjithshme"
+
+#: inc/customizer/controls.php:323
+msgid "Layout"
+msgstr "Skemë"
+
+#: inc/customizer/controls.php:298
+msgid "Alternate button background color"
+msgstr "Ngjyrë alternative sfondi butoni"
+
+#: inc/customizer/controls.php:313
+msgid "Alternate button text color"
+msgstr "Ngjyrë alternative teksti butoni"
+
+#: inc/customizer/controls.php:254
+msgid "Buttons"
+msgstr "Butona"
+
+#: inc/customizer/controls.php:256
+msgid "Customise the look & feel of your web site buttons."
+msgstr "Përshtatni pamjen & sjelljen e butonave të sajtit tuaj."
+
+#: inc/customizer/controls.php:182
+msgid "Customise the look & feel of your web site footer."
+msgstr "Përshtatni pamjen & sjelljen e fundfaqes së sajtit tuaj."
+
+#: inc/customizer/controls.php:180
+msgid "Footer"
+msgstr "Fundfaqe"
+
+#: inc/customizer/controls.php:170 inc/customizer/controls.php:243
+msgid "Link color"
+msgstr "Ngjyrë lidhjesh"
+
+#: inc/customizer/controls.php:138 inc/customizer/controls.php:195
+#: inc/customizer/controls.php:268
+msgid "Background color"
+msgstr "Ngjyrë sfondi"
+
+#: inc/customizer/controls.php:110
+msgid "Looking to add a logo? Install the %sJetpack%s plugin! %sRead more%s."
+msgstr "Po kërkoni të shtoni një logo? Instaloni shtojcën %sJetpack%s! %sMësoni më tepër%s."
+
+#: inc/customizer/controls.php:103
+msgid "Logo"
+msgstr "Logo"
+
+#: inc/customizer/controls.php:59 inc/customizer/controls.php:211
+msgid "Heading color"
+msgstr "Ngjyrë kryesh"
+
+#: inc/customizer/controls.php:75 inc/customizer/controls.php:154
+#: inc/customizer/controls.php:227 inc/customizer/controls.php:283
+msgid "Text color"
+msgstr "Ngjyrë teksti"
+
+#: inc/customizer/controls.php:90
+msgid "Link / accent color"
+msgstr "Ngjyrë theksimesh / lidhjesh"
+
+#: inc/customizer/controls.php:45
+msgid "Typography"
+msgstr "Tipografi"
+
+#: inc/customizer/controls.php:28
+msgid "Header"
+msgstr "Krye"
+
+#: inc/customizer/controls.php:24
+msgid "Background"
+msgstr "Sfond"
+
+#: inc/customizer/controls/more.php:23
+msgid "Why not leave us a review on %sWordPress.org%s?  We'd really appreciate it!"
+msgstr "Pse të mos na lini një recension te %sWordPress.org%s?  Do ta vlerësonim vërtet!"
+
+#: inc/customizer/controls/more.php:16
+msgid "There's a range of %s extensions available to put additional power in your hands. Check out the %s%s%s page in your dashboard for more information."
+msgstr "Ka një gamë zgjerimesh %s gati, për të vënë në duart tuaj fuqi shtesë. Për më tepër të dhëna, hidhini një sy faqes %s%s%s te pulti juaj."
+
+#: inc/admin/welcome-screen/welcome-screen.php:44
+msgid "Thanks for choosing Storefront! You can read hints and tips on how get the most out of your new theme on the %swelcome screen%s."
+msgstr "Faleminderit që zgjidhni Storefront-in! Te %sskena e mirëseardhjes%s mund të lexoni ndihmëza se si të përfitoni sa më tepër nga tema juaj e re."
+
+#: inc/admin/welcome-screen/welcome-screen.php:45
+msgid "Get started with Storefront"
+msgstr "Fillojani me Storefront-in"
+
+#: inc/admin/welcome-screen/sections/contribute.php:12
+msgid "Found a bug? Want to contribute a patch or create a new feature? %sGitHub is the place to go!%s Or would you like to translate %s into your language? %sGet involved on WordPress.org%s."
+msgstr "Gjetët një të metë? Dëshironi të kontribuoni me një arnë apo të krijoni një veçori të re? %sGitHub është vendi i duhur!%s Apo dëshironi të përktheni %s në gjuhën tuaj? %sMerrni pjesë te WordPress.org%s."
+
+#: inc/admin/welcome-screen/sections/intro.php:20
+msgid "Although %s works fine as a regular WordPress theme, it really shines when used for an online store. Install %s and start selling now."
+msgstr "Edhe pse %s punon xham si temë e rregullt WordPress, shkëlqimin e vërtetë e ka kur përdoret për një shitore internet. Instalojeni %s dhe filloni të shisni pa humbur kohë."
+
+#: inc/admin/welcome-screen/sections/enhance.php:76
+msgid "Boutique Child Theme"
+msgstr "Temë Pjellë e temës Boutique"
+
+#: inc/admin/welcome-screen/sections/enhance.php:69
+msgid "Galleria Child Theme"
+msgstr "Temë Pjellë e temës Galleria"
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Duket se nuk gjejmë dot ç&#8217;po kërkonit. Ndoshta mund t&#8217;ju ndihë kërkimi."
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Na ndjeni, por nuk u përputh gjë me termat tuaj të kërkimit. Ju lutemi, riprovoni me ndoca fjalëkyçe të tjera."
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Gati për botimin e postimit tuaj të parë? <a href=\"%1$s\">Fillojani këtu</a>."
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "Nuk u Gjet Gjë"
+
+#: comments.php:60
+msgid "Comments are closed."
+msgstr "Komentet janë të mbyllura."
+
+#: comments.php:35 comments.php:53
+msgid "Newer Comments &rarr;"
+msgstr "Komente Më të Reja &rarr;"
+
+#: comments.php:34 comments.php:52
+msgid "&larr; Older Comments"
+msgstr "&larr; Komente Më të Vjetra"
+
+#: comments.php:33 comments.php:51
+msgid "Comment navigation"
+msgstr "Lëvizje te komentet"
+
+#: comments.php:26
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Një mendim mbi &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s mendime mbi &ldquo;%2$s&rdquo;"
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hmm! Ajo faqe nuk gjendet dot."
+
+#. Author of the plugin/theme
+msgid "WooThemes"
+msgstr "WooThemes"
+
+#. Author URI of the plugin/theme
+msgid "http://www.woothemes.com"
+msgstr "http://www.woothemes.com"
+
+#. Theme URI of the plugin/theme
+msgid "http://www.woothemes.com/storefront"
+msgstr "http://www.woothemes.com/storefront"

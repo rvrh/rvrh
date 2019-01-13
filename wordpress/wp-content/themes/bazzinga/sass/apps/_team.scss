@@ -1,0 +1,236 @@
+ 
+//Team
+
+.homepage_our_team_wrap{
+	padding:3rem 0 1.5rem;
+	position: relative;
+
+	@include mq($min-width: 768px) {
+			padding:5rem 0;
+		}
+	
+	&:before{
+		content:'';
+		background-color:$blue;
+		width:50%;
+		height:100%;
+		top:0;
+		bottom:0;
+		position:absolute;
+	}
+
+	.team_left_content{
+		background-color:$white;
+		padding:3rem 2rem;
+		margin:0 15px;
+
+		@include mq($min-width: 768px) {
+			padding:4rem;
+			margin:0 ;
+		}
+
+
+		strong{
+			@include font-size(2.9);
+			font-weight:900;
+			font-family:$font__serif;
+			line-height:1.4;
+			color:$gray-900;
+			display:block;
+		
+	}
+	}
+
+	.team_right_content{ 
+		padding:3rem 0rem 0;
+
+		@include mq($min-width: 768px) {
+			padding:5rem 1rem;
+		}
+
+		@include mq($min-width: 992px) {
+			padding:5rem 2rem;
+		}
+
+		 
+	}
+	
+ 	.team_right_content{
+ 		.row{
+ 			@include mq($min-width: 768px) {
+	 			>div:nth-child(even){
+	 				margin-top:1rem;
+	 			}
+ 			}
+ 		}
+ 	}
+
+}
+
+.homepage_our_team_wrap, .bazz_team_style {
+	.bazzinga_team{
+		margin-bottom:1.5rem;
+		position:relative;
+
+		@include mq($min-width: 768px) {
+			margin-bottom:2rem;
+		}
+
+		&:before,&:after{
+			content: "";
+		    width: 0;
+		   	 height: 3px;
+		    position: absolute;
+		    @include transition(all 0.2s linear);
+		    background: $red;
+		    z-index:9;
+	    }
+
+	    &:before{
+	    	left: 0;
+	    	bottom: 0;
+	    	@include transition-delay(.1s);
+	    }
+
+	    &:after{
+	    	right: 0;
+	    	top: 0;
+	    	@include transition-delay(.3s);
+	    }
+
+	    &:hover{
+		    &:before{
+		    	@include transition-delay(.2s);
+		    	width:100%
+		    }
+
+		    &:after{
+		    	@include transition-delay(0);
+		    	width:100%;
+		    }
+
+		    .our_team_member{
+		    	&:after, &:before{
+	    			height: 100%;
+				}
+
+				&:before{
+	    			@include transition-delay(.3s);
+				}
+
+				&:after{
+	    			@include transition-delay(.1s);
+				}
+	    	}
+
+	    	.our_team_inner_design{
+				opacity:1;
+				visibility:visible;
+			}
+
+			figure{
+					
+				img{
+					@include transform(scale(.9));
+				}
+
+				&:after{
+					opacity:.9;
+				 	visibility:visible;
+				}
+			}
+	    }
+	}
+
+	.our_team_member{
+
+		&:after, &:before{
+			content: "";
+		    width: 3px;
+		    height: 0;
+		    position: absolute;
+		    @include transition(all 0.2s linear);
+		   	background: $red;
+		   	z-index:9;
+		}
+
+		&:after{
+			@include transition-delay(.2s);
+	    	right: 0;
+	    	bottom: 0;
+	    }
+
+	    &:before{
+			@include transition-delay(0);
+	    	left: 0;
+	    	top: 0;
+	    }
+
+		
+
+		figure{
+			margin:0;
+				
+			img{
+				@include transform(perspective(1px));
+				@include transition(all ease .3s);
+			}
+
+			&:after{
+			 	content:'';
+			 	background-color:$white;
+			 	opacity:0;
+			 	visibility:hidden;
+			 	position:absolute;
+			 	top:0;
+			 	bottom:0;
+			 	width:100%;
+			 	height:100%;
+			 	right:0;
+			 	left:0;
+			 	@include transition(all ease .3s);
+			}
+		}		
+	}
+
+	.our_team_inner_design{
+		position:absolute;
+		bottom:20px;
+		right:20px;
+		opacity:0;
+		visibility:hidden;
+
+		h3{
+			max-width:16rem;
+		}
+
+		h3 span{
+			display:block;
+		}
+
+			.designation{
+				font-style:italic;
+			}
+
+			.social-icons{
+				ul{
+					margin:0;
+					list-style:none;
+
+					li{
+						display:inline-block;
+						padding-left:5px;
+
+						a{
+							color:$gray-600;
+
+							&:hover{
+								color:$red;
+							}
+						}
+					}
+				}
+			}
+		
+	}
+}

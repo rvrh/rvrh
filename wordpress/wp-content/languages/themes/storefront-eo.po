@@ -1,0 +1,744 @@
+# Translation of Themes - Storefront in Esperanto
+# This file is distributed under the same license as the Themes - Storefront package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-05-17 14:27:34+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: eo\n"
+"Project-Id-Version: Themes - Storefront\n"
+
+#. Theme Name of the theme
+msgid "Storefront"
+msgstr "Storefront"
+
+#. Description of the theme
+msgid "Storefront is the perfect theme for your next WooCommerce project. Designed and developed by WooCommerce Core developers, it features a bespoke integration with WooCommerce itself plus many of the most popular customer facing WooCommerce extensions. There are several layout & color options to personalise your shop, multiple widget regions, a responsive design and much more. Developers will love its lean and extensible codebase making it a joy to customize and extend. Looking for a WooCommerce theme? Look no further!"
+msgstr "Storefront estas la perfekta etoso por via sekva projekto utiliganta WordPress. Dizajnita kaj programita de la programistoj de la kerno de WooCommerce, ĝi kongruas bele kun WooCommerce, dum samtempa permeso de modifoj. Storefront ankaŭ glate funkcias kun multaj etendaĵoj de WooCommerce koncerne la fasadon, kion vidas klientoj. Estas pluraj aranĝoj kaj kolor-elektoj kaj ankaŭ pluraj lokoj por kromprogrametoj. La etoso estas respondema al malsamaj aparatoj. Programistoj estos ravitaj de la konciza, tamen etendebla kodobazo, kiu ebligas proprajn ŝanĝojn kaj aldonojn. Ĉu vi serĉas etoson por WooCommerce? Ne pluserĉu!"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:828
+msgid "Product Brands"
+msgstr "Markoj de varoj"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:813
+msgid "Shop by Brand"
+msgstr "Butikumi laŭ marko"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:778
+msgid "You're viewing:"
+msgstr "Vi rigardas:"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:733
+msgid "More products"
+msgstr "Pliaj varoj"
+
+#: inc/storefront-template-functions.php:541
+msgid "Previous post:"
+msgstr "Antaŭa afiŝo:"
+
+#: inc/storefront-template-functions.php:540
+msgid "Next post:"
+msgstr "Sekva afiŝo:"
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:93
+msgid "Displays next and previous links on product pages. A product thumbnail is displayed with the title revealed on hover."
+msgstr "Montras ligilojn sekva kaj antaŭa ĉe paĝoj de varoj. Bildeto de varo aperas kun la titolo je ŝvebiĝo."
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:92
+msgid "Product Pagination"
+msgstr "Paĝnumerado de varo"
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:83
+msgid "A small content bar at the top of the browser window which includes relevant product information and an add-to-cart button. It slides into view once the standard add-to-cart button has scrolled out of view."
+msgstr "Eta enhavo-breto ĉe la supro de la retumila fenestro, kiu inkluzivas priajn informojn pri la varo kaj butonon Aldoni al korbo. Ĝi glatiĝas en la vidon kiam la normala butono Aldoni al korbo rulumiĝas ekster la vido."
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:82
+msgid "Sticky Add-To-Cart"
+msgstr "Gluita Aldoni al korbo"
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:59
+msgid "Product Page"
+msgstr "Paĝo de varo"
+
+#: inc/customizer/class-storefront-customizer.php:274
+msgid "Hero text color"
+msgstr "Teksto-koloro de Heroo"
+
+#: inc/customizer/class-storefront-customizer.php:252
+msgid "Hero heading color"
+msgstr "Kapo-koloro de Heroo"
+
+#: inc/class-storefront.php:307
+msgid "Collapse child menu"
+msgstr "Maletendi idan menuon"
+
+#: inc/class-storefront.php:306
+msgid "Expand child menu"
+msgstr "Etendi idan menuon"
+
+#: inc/storefront-template-functions.php:147
+msgid "Built with Storefront &amp; WooCommerce"
+msgstr "Konstruita per Storefront k. WooCommerce"
+
+#: inc/storefront-template-functions.php:147
+msgid "WooCommerce - The Best eCommerce Platform for WordPress"
+msgstr "WooCommerce - la plej bona platformo por enreta komerco ene de WordPress"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:126
+msgid "Organize your menus by adding Pages, Categories, Tags, and Custom Links."
+msgstr "Vi povas organizi menuojn per aldono de Paĝoj, Kategorioj, Etikedoj kaj Propraj ligiloj."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:125
+msgid "Customize your navigation menus"
+msgstr "Tajlori viajn navigadajn menuojn"
+
+#: inc/class-storefront.php:441
+msgid "Post Navigation"
+msgstr "Navigado tra afiŝoj"
+
+#: comments.php:58
+msgid "Comment Navigation Below"
+msgstr "Suba navigado tra komentoj"
+
+#: comments.php:38
+msgid "Comment Navigation Above"
+msgstr "Supra navigado tra komentoj"
+
+#: comments.php:21
+msgid "Post Comments"
+msgstr "Komentoj pri afiŝoj"
+
+#: 404.php:39
+msgid "Promoted Products"
+msgstr "Elstarigitaj varoj"
+
+#: inc/admin/class-storefront-admin.php:174
+#: inc/admin/class-storefront-plugin-install.php:62
+msgid "Activated"
+msgstr "Aktivigita"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:542
+msgid "Best Selling Products"
+msgstr "Plej vendataj varoj"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:490
+msgid "On Sale Products"
+msgstr "Varoj je rabatprezo"
+
+#: inc/storefront-template-functions.php:297
+msgid "Edit this section"
+msgstr "Redakti tiun ĉi sekcion"
+
+#: inc/nux/class-storefront-nux-starter-content.php:863
+msgid "Vneck Tshirt"
+msgstr "T-ĉemizo kun v-forma dekoltaĵo"
+
+#: inc/nux/class-storefront-nux-starter-content.php:842
+msgid "Tshirt"
+msgstr "T-ĉemizo"
+
+#: inc/nux/class-storefront-nux-starter-content.php:821
+msgid "Polo"
+msgstr "Tenis-ĉemizo"
+
+#: inc/nux/class-storefront-nux-starter-content.php:800
+msgid "Long Sleeve Tee"
+msgstr "Longmanika t-ĉemizo"
+
+#: inc/nux/class-storefront-nux-starter-content.php:778
+msgid "Hoodie"
+msgstr "Kun kapuĉo"
+
+#: inc/nux/class-storefront-nux-starter-content.php:757
+msgid "Hoodie with Zipper"
+msgstr "Kapuĉo kun zipo"
+
+#: inc/nux/class-storefront-nux-starter-content.php:735
+msgid "Hoodie with Pocket"
+msgstr "Kapuĉo kun poŝo"
+
+#: inc/nux/class-storefront-nux-starter-content.php:714
+msgid "Hoodie with Logo"
+msgstr "Kapuĉo kun emblemo"
+
+#: inc/nux/class-storefront-nux-starter-content.php:693
+msgid "Sunglasses"
+msgstr "Sunokulvitroj"
+
+#: inc/nux/class-storefront-nux-starter-content.php:671
+msgid "Cap"
+msgstr "Ĉapo"
+
+#: inc/nux/class-storefront-nux-starter-content.php:649
+msgid "Belt"
+msgstr "Zono"
+
+#: inc/nux/class-storefront-nux-starter-content.php:627
+msgid "Beanie"
+msgstr "Vaska ĉapo"
+
+#: inc/nux/class-storefront-nux-starter-content.php:621
+msgid "Tshirts"
+msgstr "T-ĉemizoj"
+
+#: inc/nux/class-storefront-nux-starter-content.php:618
+msgid "Hoodies"
+msgstr "Kun kapuĉoj"
+
+#: inc/nux/class-storefront-nux-starter-content.php:616
+#: inc/nux/class-storefront-nux-starter-content.php:619
+#: inc/nux/class-storefront-nux-starter-content.php:622
+msgid "A short category description"
+msgstr "Mallonga priskribo de kategorio"
+
+#: inc/nux/class-storefront-nux-starter-content.php:615
+msgid "Accessories"
+msgstr "Tualetaĵoj"
+
+#: inc/nux/class-storefront-nux-starter-content.php:77
+msgid "This is a page with some basic contact information, such as an address and phone number. You might also try a plugin to add a contact form."
+msgstr "Jen, paĝo kun bazaj kontaktinformoj, kiel adreso kaj telefonnumero. Eble vi volas provi kromprogramon por aldono de kontakt-formularo."
+
+#: inc/nux/class-storefront-nux-starter-content.php:76
+msgid "Contact"
+msgstr "Kontakto"
+
+#: inc/nux/class-storefront-nux-starter-content.php:72
+msgid "You might be an artist who would like to introduce yourself and your work here or maybe you&rsquo;re a business with a mission to describe."
+msgstr "Eble vi estas artisto kaj vi volas prezenti vin kaj viajn kreaĵojn tie ĉi, aŭ eble vi estas firmao kun deklaro de misio."
+
+#: inc/nux/class-storefront-nux-starter-content.php:71
+msgid "About"
+msgstr "Pri"
+
+#. translators: %s: 'End Of Line' symbol
+#: inc/nux/class-storefront-nux-starter-content.php:65
+msgid "This is your homepage which is what most visitors will see when they first visit your shop.%sYou can change this text by editing the \"Welcome\" page via the \"Pages\" menu in your dashboard."
+msgstr "Jen, via ĉefpaĝo, kutime vidata de la vizitantoj je unua vizito al via retejo.%sVi povas ŝanĝi tiun ĉi tekston per redakto de la paĝo \"Bonvenon\" per la menuo \"Paĝoj\" en la administra panelo."
+
+#: inc/nux/class-storefront-nux-starter-content.php:63
+msgid "Welcome"
+msgstr "Bonvenon"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:147
+msgid "Done"
+msgstr "Farite"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:138
+msgid "Choose colors for your button backgrounds and text. Once again, brand colors are good choices here."
+msgstr "Elektu kolorojn de la fonoj de butonoj kaj teksto. Denove, koloroj uzitaj de via firmao estas bonaj elektoj."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:137
+msgid "Color your buttons"
+msgstr "Kolorigu viajn butonojn"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:132
+msgid "In the typography panel you can specify an accent color which will be applied to things like links and star ratings. We recommend using your brand color for this setting."
+msgstr "En la panelo Tiparo, vi povas specifi akcesoran koloron por apliki al aferoj kiel ligiloj kaj stel-pritaksoj."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:131
+msgid "Choose your accent color"
+msgstr "Elektu vian akcesoran koloron"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:119
+msgid "Open the Site Identity Panel, then click the 'Select Logo' button to upload your logo."
+msgstr "Malfermu la panelon Identeco de retejo, poste alklaku al la butono 'Elekti emblemon' por alŝuti vian emblemon."
+
+#. translators: %s: 'End Of Line' symbol
+#: inc/nux/class-storefront-nux-guided-tour.php:111
+msgid "Here you can control the overall look and feel of your store.%sTo get started, let's add your logo"
+msgstr "Tie ĉi, vi povas regi la ĝeneralan aspekton de via retejo.%sPor komenci tion, ni aldonu vian emblemon."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:109
+msgid "Welcome to the Customizer"
+msgstr "Bonvenon al la Tajlorilo"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:91
+msgid "Skip this step"
+msgstr "Salti preter tiu paŝo"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:89
+msgid "No thanks, skip the tour"
+msgstr "Dankon, sed ne, preterpasu la gviditan montradon"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:112
+#: inc/nux/class-storefront-nux-admin.php:131
+msgid "Let's go!"
+msgstr "Ek!"
+
+#: inc/nux/class-storefront-nux-admin.php:126
+msgid "Add example products"
+msgstr "Aldono de specimenaj varoj"
+
+#: inc/nux/class-storefront-nux-admin.php:118
+msgid "Create a homepage using Storefront's homepage template"
+msgstr "Kreo de ĉefpaĝo per uzo de la ĉefpaĝa ŝablono de Storefront"
+
+#: inc/nux/class-storefront-nux-admin.php:116
+msgid "Apply the Storefront homepage template"
+msgstr "Apliki la ĉefpaĝan ŝablonon de Storefront"
+
+#: inc/nux/class-storefront-nux-admin.php:95
+msgid "You've set up WooCommerce, now it's time to give it some style! Let's get started by entering the Customizer and adding your logo."
+msgstr "Vi agordis WooCommerce, nun tempas doni stilon! Eku per iro al la Tajlorilo por aldoni vian emblemon."
+
+#: inc/nux/class-storefront-nux-admin.php:93
+msgid "Before you add your first product let's design your store. We'll add some example products for you. When you're ready let's get started by adding your logo."
+msgstr "Antaŭ aldono de via unua varo, ni dizajnu vian vendejon. Ni aldonos specimenajn varojn por vi. Kiam vi volos, ni aldonos vian emblemon."
+
+#: inc/nux/class-storefront-nux-admin.php:89
+msgid "Design your store 🎨"
+msgstr "Dizajno de via vendejo 🎨"
+
+#: inc/nux/class-storefront-nux-admin.php:85
+msgid "Activate WooCommerce"
+msgstr "Aktivigi WooCommerce"
+
+#: inc/nux/class-storefront-nux-admin.php:85
+msgid "WooCommerce activated"
+msgstr "WooCommerce aktivigita"
+
+#: inc/nux/class-storefront-nux-admin.php:84
+msgid "To enable eCommerce features you need to install the WooCommerce plugin."
+msgstr "Por ebligi ecojn de enreta komerco, vi bezonas instali la kromprogramon WooCommerce."
+
+#: inc/nux/class-storefront-nux-admin.php:83
+msgid "Thanks for installing Storefront, you rock! 🤘"
+msgstr "Dankon pro la instalo de Storefront, vi stelulo! 🤘"
+
+#. translators: 1: column number, 2: row number
+#: inc/class-storefront.php:230
+msgid "Widgets added here will appear in column %1$d of footer row %2$d."
+msgstr "Kromprogrametoj aldonitaj tie ĉi aperos en kolumno %1$d de pieda vico %2$d."
+
+#. translators: 1: row number, 2: column number
+#: inc/class-storefront.php:227
+msgid "Footer Row %1$d - Column %2$d"
+msgstr "Vico en piedo %1$d - Kolumno %2$d"
+
+#. translators: 1: column number
+#: inc/class-storefront.php:224
+msgid "Widgets added here will appear in column %1$d of the footer."
+msgstr "Kromprogrametoj aldonitaj tie ĉi aperos en kolumno %1$d de la piedo."
+
+#. translators: 1: column number
+#: inc/class-storefront.php:221
+msgid "Footer Column %1$d"
+msgstr "Pieda kolumno %1$d"
+
+#: inc/admin/class-storefront-admin.php:205
+#: inc/admin/class-storefront-plugin-install.php:114
+msgid "Learn more"
+msgstr "Lerni pli"
+
+#: inc/admin/class-storefront-admin.php:198
+#: inc/admin/class-storefront-plugin-install.php:94
+msgid "Install now"
+msgstr "Instali nun"
+
+#: inc/admin/class-storefront-admin.php:136
+msgid "Check 'em out"
+msgstr "Okulumu ilin"
+
+#: inc/admin/class-storefront-admin.php:132
+msgid "Of course they are all fully compatible with each Storefront extension."
+msgstr "Kompreneble, ili ĉiuj akordas kun ĉiu etendaĵo de Storefront."
+
+#: inc/admin/class-storefront-admin.php:128
+msgid "Each has been designed to serve a different industry - from fashion to food."
+msgstr "Ĉiu estis dizajnita servi malsaman entreprenon - de vestaĵoj ĝis vino."
+
+#: inc/admin/class-storefront-admin.php:124
+msgid "Quickly and easily transform your shops appearance with Storefront child themes."
+msgstr "Vi povas facile kaj rapide ŝanĝi la aspekton de via vendejo per idaj etosoj de Storefront."
+
+#: inc/admin/class-storefront-admin.php:120
+msgid "Alternate designs"
+msgstr "Alternativaj dizajnoj"
+
+#: inc/admin/class-storefront-admin.php:116
+msgid "Read more and purchase"
+msgstr "Lerni pli kaj aĉeti"
+
+#: inc/admin/class-storefront-admin.php:111
+msgid "Make it yours without touching code with the Storefront Extensions bundle. Express yourself, optimize conversions, delight customers."
+msgstr "Proprigu ĝin sen tuŝo de kodo per la pako de etendaĵoj por Storefront. Vi povos esprimi vin, optimumigi konvertiĝojn, ravi klientojn."
+
+#: inc/admin/class-storefront-admin.php:107
+msgid "All the tools you'll need to define your style and customize Storefront."
+msgstr "Ĉiuj iloj bezonataj por difini vian stilon kaj proprigi Storefront."
+
+#: inc/admin/class-storefront-admin.php:101
+msgid "Storefront Extensions Bundle"
+msgstr "Etenda pako de Storefront"
+
+#: inc/admin/class-storefront-admin.php:94
+msgid "Hello! You might be interested in the following Storefront extensions and designs."
+msgstr "Saluton! Vi eble havas intereson en la sekvaj etendaĵoj kaj dizajnoj de Storefront."
+
+#: inc/admin/class-storefront-admin.php:92
+msgid "One more thing... You might be interested in the following Storefront extensions and designs."
+msgstr "Unu plia afero... Vi eble havas intereson en la sekvaj etendaĵoj kaj dizajnoj de Storefront."
+
+#: inc/admin/class-storefront-admin.php:74
+msgid "Development blog"
+msgstr "Blogo de programistoj"
+
+#: inc/admin/class-storefront-admin.php:73
+msgid "Documentation"
+msgstr "Dokumentado"
+
+#: inc/admin/class-storefront-admin.php:72
+msgid "Support"
+msgstr "Helpo"
+
+#: inc/class-storefront.php:208
+msgid "Widgets added to this region will appear beneath the header and above the main content."
+msgstr "Kromprogrametoj aldonitaj al tiu regiono aperos sub la kapo kaj supre de la ĉefa enhavo."
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:696
+msgid "My Account"
+msgstr "Mia konto"
+
+#: 404.php:25 inc/woocommerce/storefront-woocommerce-template-functions.php:669
+msgid "Search"
+msgstr "Priserĉi"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:523
+msgid "Best Sellers"
+msgstr "Plej vendataj"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:417
+msgid "Fan Favorites"
+msgstr "Ŝatataj"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:364
+msgid "We Recommend"
+msgstr "Ni rekomendas"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:311
+msgid "New In"
+msgstr "Novaj"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:259
+msgid "Shop by Category"
+msgstr "Butikumi laŭ kategorio"
+
+#: inc/storefront-template-functions.php:507
+msgid "Tagged"
+msgstr "Etikedita"
+
+#: inc/storefront-template-functions.php:500
+msgid "Posted in"
+msgstr "Afiŝita en"
+
+#: inc/storefront-template-functions.php:229
+msgid "Menu"
+msgstr "Menuo"
+
+#: inc/class-storefront.php:206
+msgid "Below Header"
+msgstr "Sub kapo"
+
+#. translators: %s: Storefront
+#: inc/customizer/class-storefront-customizer-control-more.php:36
+msgid "Enjoying %s?"
+msgstr "Ĉu vi ĝuas %s?"
+
+#. translators: %s: Automattic branding
+#: inc/admin/class-storefront-admin.php:145
+msgid "An %s project"
+msgstr "Projekto de %s"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:590
+msgid "On Sale Now"
+msgstr "Nun je rabatprezo"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:600
+msgid "New In Store"
+msgstr "Nove en vendejo"
+
+#: inc/customizer/class-storefront-customizer.php:288
+msgid "Header background image"
+msgstr "Fona bildo de kapo"
+
+#: inc/storefront-template-functions.php:526
+msgctxt "Next post"
+msgid "Next"
+msgstr "Sekva"
+
+#: inc/storefront-template-functions.php:527
+msgctxt "Previous post"
+msgid "Previous"
+msgstr "Antaŭa"
+
+#: 404.php:59 404.php:61
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:436
+msgid "Popular Products"
+msgstr "Popularaj varoj"
+
+#: 404.php:22
+msgid "Nothing was found at this location. Try searching, or check out the links below."
+msgstr "Nenio estis trovita ĉe tiu loko. Provu serĉi aŭ provu la subajn ligilojn."
+
+#. Template Name of the theme
+msgid "Homepage"
+msgstr "Ĉefpaĝo"
+
+#. Template Name of the theme
+msgid "Full width"
+msgstr "Plena larĝeco"
+
+#. translators: %d: number of items in cart
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:77
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d ero"
+msgstr[1] "%d eroj"
+
+#. translators: %s: search term
+#: search.php:19
+msgid "Search Results for: %s"
+msgstr "Serĉrezultoj por: %s"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:330
+msgid "Recent Products"
+msgstr "Lastaj varoj"
+
+#: 404.php:45 404.php:47
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:278
+msgid "Product Categories"
+msgstr "Kategorioj de varoj"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:384
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:580
+msgid "Featured Products"
+msgstr "Elstarigitaj varoj"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:75
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:682
+msgid "View your shopping cart"
+msgstr "Vidi vian korbon"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:470
+msgid "On Sale"
+msgstr "Je rabatprezo"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:83
+msgid "Next"
+msgstr "Sekva"
+
+#: inc/storefront-template-functions.php:455
+msgid "% Comments"
+msgstr "% Komentoj"
+
+#: inc/storefront-template-functions.php:455
+msgid "1 Comment"
+msgstr "1 komento"
+
+#: inc/storefront-template-functions.php:455
+msgid "Leave a comment"
+msgstr "Lasi komenton"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/storefront-template-functions.php:491
+#: inc/storefront-template-functions.php:494
+msgid ", "
+msgstr ", "
+
+#. translators: %s: post title
+#: inc/storefront-template-functions.php:396
+msgid "Continue reading %s"
+msgstr "Daŭrigi legi %s"
+
+#: inc/storefront-template-functions.php:339
+#: inc/storefront-template-functions.php:405
+msgid "Pages:"
+msgstr "Paĝoj:"
+
+#: inc/storefront-template-functions.php:284
+msgid "Skip to navigation"
+msgstr "Pretersalti al navigado"
+
+#: inc/storefront-template-functions.php:260
+msgid "Secondary Navigation"
+msgstr "Duaranga navigado"
+
+#: inc/storefront-template-functions.php:285
+msgid "Skip to content"
+msgstr "Iri rekte al la enhavo"
+
+#: inc/storefront-template-functions.php:228
+msgid "Primary Navigation"
+msgstr "Ĉefa navigado"
+
+#: inc/storefront-template-functions.php:74
+msgid "Edit"
+msgstr "Redakti"
+
+#: inc/storefront-template-functions.php:48
+msgid "Your comment is awaiting moderation."
+msgstr "Via komento atendas aprobon."
+
+#: inc/nux/class-storefront-nux-starter-content.php:192
+#: inc/class-storefront.php:94
+msgid "Handheld Menu"
+msgstr "Menuo por poŝaparatoj"
+
+#: inc/class-storefront.php:200
+msgid "Sidebar"
+msgstr "Flankpanelo"
+
+#: inc/nux/class-storefront-nux-starter-content.php:182
+#: inc/class-storefront.php:93
+msgid "Secondary Menu"
+msgstr "Duaranga menuo"
+
+#: inc/customizer/class-storefront-customizer.php:600
+msgid "Looking for more options?"
+msgstr "Ĉu vi serĉas pliajn opciojn?"
+
+#: inc/nux/class-storefront-nux-starter-content.php:162
+#: inc/class-storefront.php:92
+msgid "Primary Menu"
+msgstr "Ĉefa menuo"
+
+#: inc/customizer/class-storefront-customizer.php:569
+msgid "General Layout"
+msgstr "Ĝenerala aranĝo"
+
+#: inc/customizer/class-storefront-customizer.php:585
+msgid "More"
+msgstr "Pli"
+
+#: inc/customizer/class-storefront-customizer.php:364
+msgid "Customize the look & feel of your website footer."
+msgstr "Tajloru la aspekton de la piedo de via retejo."
+
+#: inc/customizer/class-storefront-customizer.php:459
+msgid "Customize the look & feel of your website buttons."
+msgstr "Tajloru la aspekton de la butonoj de via retejo."
+
+#: inc/customizer/class-storefront-customizer.php:457
+msgid "Buttons"
+msgstr "Butonoj"
+
+#: inc/customizer/class-storefront-customizer.php:539
+msgid "Alternate button text color"
+msgstr "Koloro de butono por alternativa teksto"
+
+#: inc/customizer/class-storefront-customizer.php:518
+msgid "Alternate button background color"
+msgstr "Alternativa fonkoloro de butono"
+
+#: inc/customizer/class-storefront-customizer.php:552
+msgid "Layout"
+msgstr "Aranĝo"
+
+#: inc/customizer/class-storefront-customizer.php:362
+msgid "Footer"
+msgstr "Piedo"
+
+#: inc/customizer/class-storefront-customizer.php:349
+#: inc/customizer/class-storefront-customizer.php:444
+msgid "Link color"
+msgstr "Ligila koloro"
+
+#: inc/customizer/class-storefront-customizer.php:307
+#: inc/customizer/class-storefront-customizer.php:381
+#: inc/customizer/class-storefront-customizer.php:476
+msgid "Background color"
+msgstr "Fona koloro"
+
+#: inc/customizer/class-storefront-customizer.php:189
+#: inc/customizer/class-storefront-customizer.php:402
+msgid "Heading color"
+msgstr "Kapo-koloro"
+
+#: inc/customizer/class-storefront-customizer.php:231
+msgid "Link / accent color"
+msgstr "Ligila / akcesora koloro"
+
+#: inc/customizer/class-storefront-customizer.php:210
+#: inc/customizer/class-storefront-customizer.php:328
+#: inc/customizer/class-storefront-customizer.php:423
+#: inc/customizer/class-storefront-customizer.php:497
+msgid "Text color"
+msgstr "Teksta koloro"
+
+#: inc/customizer/class-storefront-customizer.php:171
+msgid "Typography"
+msgstr "Tiparo"
+
+#: inc/customizer/class-storefront-customizer.php:126
+msgid "Header"
+msgstr "Kapo"
+
+#: inc/customizer/class-storefront-customizer.php:122
+msgid "Background"
+msgstr "Fono"
+
+#: inc/nux/class-storefront-nux-admin.php:85
+msgid "Install WooCommerce"
+msgstr "Instali WooCommerce"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:118
+msgid "Add your logo"
+msgstr "Aldonu vian emblemon"
+
+#: inc/admin/class-storefront-admin.php:183
+#: inc/admin/class-storefront-plugin-install.php:75
+msgid "Activate"
+msgstr "Aktivigi"
+
+#: content-none.php:34
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Ŝajne ni ne havas kion vi serĉas. Eble uzu la serĉilon."
+
+#: content-none.php:29
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Bedaŭrinde, nenio kongruis kun viaj serĉaj kriterioj. Bonvolu provi denove, uzante malsamajn vortojn."
+
+#. translators: 1: URL
+#: content-none.php:23
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Ĉu preta por publikigi vian unuan afiŝon? <a href=\"%1$s\">Eku tie ĉi</a>."
+
+#: content-none.php:14
+msgid "Nothing Found"
+msgstr "Nenio estis trovita"
+
+#: comments.php:70
+msgid "Comments are closed."
+msgstr "Komentado estas fermita."
+
+#: comments.php:41 comments.php:61
+msgid "Newer Comments &rarr;"
+msgstr "Pli novaj komentoj &rarr;"
+
+#: comments.php:40 comments.php:60
+msgid "&larr; Older Comments"
+msgstr "&larr; Pli malnovaj komentoj"
+
+#: comments.php:39 comments.php:59
+msgid "Comment navigation"
+msgstr "Navigado tra komentoj"
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oj! Tiu paĝo ne estis trovita."
+
+#. Author of the theme
+msgid "Automattic"
+msgstr "Automattic"
+
+#. Author URI of the theme
+msgid "https://woocommerce.com/"
+msgstr "https://woocommerce.com/"
+
+#. Theme URI of the theme
+msgid "https://woocommerce.com/storefront/"
+msgstr "https://woocommerce.com/storefront/"

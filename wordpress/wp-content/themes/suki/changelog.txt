@@ -1,0 +1,176 @@
+v0.7.9
+- FIX: Remove Elementor and Brizy isolation mode (this caused some problems in multiple cases).
+
+v0.7.8
+- TWEAK: Improve Suki admin page with quick links.
+- FIX: Brizy editor isolation mode.
+
+v0.7.7
+- NEW: Add dedicated template for Elementor Template with "Page" or "Section" types.
+- NEW: Elementor preview isolation mode (elements except the main editor is ignoring any mouse event).
+- NEW: Brizy preview isolation mode (elements except the main editor is ignoring any mouse event).
+- TWEAK: Remove `classList` polyfill JS (unnecessary).
+- FIX: Header logo CSS for sticky header integration (used in Suki Pro).
+- FIX: Link default colors.
+
+v0.7.6
+- FIX: Popup close icon CSS.
+- FIX: Footer bottom CSS.
+
+v0.7.5
+- FIX: TinyMCE settings filters which caused blank white error on TinyMCE.
+- FIX: Minor CSS.
+
+v0.7.4
+- FIX: Gutenberg cover image CSS when using parallax and wide alignment mode.
+
+v0.7.3
+- FIX: Use selected font family in Gutenberg editor.
+
+v0.7.2
+- TWEAK: Improve Gutenberg editor CSS.
+- TWEAK: Improve CSS for widgets and other minor elements.
+- TWEAK: Improve static pages template hooks.
+- TWEAK: Make multiple elements in a footer bottom column displayed inline (previously block).
+- FIX: Footer bottom CSS.
+
+v0.7.1
+- FIX: Global page header background image was not showing in archive page.
+- FIX: Header link hover color.
+- FIX: Footer bottom responsive CSS.
+- FIX: Some minor CSS.
+
+v0.7.0
+- NEW: Move Gutenberg compatibility features into core.
+- NEW: Gutenberg editor's styles.
+- NEW: Option to set spacing between header's merged bars (top and bottom) and the main bar.
+- NEW: Option to set spacing between footer's merged bottom bar and the widgets bar.
+- NEW: Option to set spacing between footer's merged bottom bar and the widgets bar.
+- NEW: Option to set active menu link colors including its highlight effect colors.
+- NEW: Option to set spacing between elements on footer bottom bar.
+- NEW: Option to set page header background overlay color along with transparency.
+- NEW: Option to set page header layout width when on "left", "center", "right" layout.
+- NEW: Option to set WooCommerce products grid text alignment.
+- NEW: Option to set post / page content header alignment.
+- NEW: Percentage (%) unit on all section padding settings.
+- TWEAK: Move "Page Settings" metabox to side panels (for better experience on Gutenberg).
+- TWEAK: Remove static page's template hooks and use same hooks as default post content's.
+- TWEAK: Header's merged bars HTML structure.
+- TWEAK: Footer's merged bars HTML structure.
+- TWEAK: Suki Pro modules list.
+- TWEAK: Remove "page header background overlay opacity" setting in favor of "page header background overlay color".
+- TWEAK: Update Google Fonts JSON.
+- FIX: JS warning when header is disabled.
+- FIX: Reponsive switcher on Customizer's slider and typography controls.
+- FIX: Some WooCommerce CSS.
+- FIX: Some Gutenberg CSS.
+- FIX: Some other template CSS.
+
+v0.6.3
+- TWEAK: Make header HTML elements allow all HTML tags.
+- FIX: Variable product's "add to cart" form CSS.
+- FIX: Footer widget columns width on mobile.
+- FIX: Cart totals CSS.
+- FIX: Select2 CSS.
+
+v0.6.2
+- TWEAK: Improve compatibility CSS for WooCommerce 3.5.
+- TWEAK: Improve letter spacing step, from 0.5px to 0.1px.
+- FIX: Gutenberg blocks CSS.
+- FIX: Customizer's dimensions control bug for not saving responsive values.
+- FIX: Customizer's shadow control JS.
+- FIX: Customizer's footer builder JS.
+
+v0.6.1
+- NEW: WooCommerce cart's table responsive styles.
+- NEW: Make search form's placeholder text translatable from theme's text domain.
+- TWEAK: Adjust narrow content and content wrapper allowed width ranges in Customizer.
+- TWEAK: Improve WooCommerce responsive cart table styles.
+- FIX: Customizer's shadow control JS bug.
+- FIX: Customizer's postmessage on button radius option for WooCommerce buttons.
+- FIX: Customizer's postmessage on subsidiary headings.
+- FIX: Custom CSS media queries order.
+- FIX: Custom CSS on WooCommerce buttons and inputs.
+- FIX: Some minor CSS.
+
+v0.6.0
+- NEW: Header menu highlight now has highlight text color option.
+- TWEAK: Drastically improve Customizer performance (now it loads much faster).
+- TWEAK: Now section side padding is merged to "Padding" option (to avoid confusion).
+- FIX: Header sub-menu typography.
+- FIX: Customizer color control's autocomplete issue.
+- FIX: Customizer bugs.
+- FIX: Some CSS bugs.
+- FIX: Page header's default background on static pages.
+
+v0.5.5
+- TWEAK: Improve compatibility for Suki Pro.
+- FIX: Page header's background not using feature image on static pages.
+
+v0.5.4
+- NEW: Customizer's dimension control.
+- TWEAK: Improve default compatibility styles for Gutenberg.
+- TWEAK: Improve compatibility for Suki Pro.
+- TWEAK: Improve value range on all padding, border controls in Customizer.
+- TWEAK: Improve Suki admin page content and design.
+- FIX: Responsive settings on Customizer's Typography control.
+- FIX: "Hide post title" option (Page Settings) bug on static page.
+- REMOVE: Section side padding options on Customizer -- now is default in theme CSS.
+- REMOVE: Gutenberg options on Customizer -- now is default in theme CSS.
+
+v0.5.2
+- FIX: custom CSS bug on v0.5.1.
+
+v0.5.1
+- NEW: "Page header" option on Page Settings to enable / disable page header (replacing "Disable page header" option).
+- TWEAK: Improve all sanitization and escaping.
+- TWEAK: Improve some strings.
+- FIX: z-index on Content section overlapping Header bottom bar.
+- FIX: Mobile header submenu typography live preview on Customizer.
+- FIX: Page settings fallback values for Page header background image.
+- REMOVE: "Disable page header" option on Page Setting (in favor of the new "Page header" option).
+
+v0.5.0
+- NEW: Page Header background image mode on Customizer's Page Settings (replacing the old background options).
+- NEW: Gutenberg columns option in Customizer.
+- NEW: Option to hide featured image on page and post meta box.
+- TWEAK: Add proper `rel` attribute on social links -- credit to (luizbills)[https://github.com/luizbills] (#8)[https://github.com/sukiwp/suki/pull/8]
+- TWEAK: Move all Gutenberg compatibility features to a separate module.
+- TWEAK: Improve some strings.
+- TWEAK: Improve all sanitization and escaping.
+- TWEAK: Minor CSS.
+- REMOVE: Author social links features.
+- REMOVE: Built-in SVG upload feature (please use 3rd party plugin instead).
+- REMOVE: All "Page header background" options on Page Header.
+- REMOVE: "Override page header title" text option on Customizer's Page Settings.
+- REMOVE: "Override page header title" text option on Page Settings metabox.
+- REMOVE: All "Page header background" options on Customizer's Page Settings.
+- REMOVE: All "Page header background" options on Page Settings metabox.
+- REMOVE: "Show page title" option on Page Header settings (page title will always be displayed).
+
+v0.4.2
+- NEW: Global default options for "section layout" and "content & sidebar layout".
+- NEW: Version migration mechanism for future updates that require migration process.
+- NEW: Option to hide page title on static page meta box.
+- TWEAK: Some control & section structures on Customizer.
+- TWEAK: Some translatable strings on Customizer.
+- TWEAK: Mobile header drawer HTML structures.
+- TWEAK: Search results page when no results found.
+- FIX: Some CSS.
+- REMOVE: Ambiguous "keep content title displayed" option on Page Settings.
+
+v0.4.1
+- TWEAK: Some translatable strings on Customizer.
+- FIX: Blog posts page layout options not working.
+- FIX: Default CSS caused colors settings on headings, title, and small title not working.
+- FIX: Font family bugs on Small Title and Meta Info.
+- FIX: Some minor PHP warnings.
+
+v0.4.0
+- NEW: Option to merge header top bar, header bottom bar into header main bar.
+- NEW: Option to merge footer bottom bar into footer widgets bar.
+- TWEAK: Content wrapper is now rendered on header.php and footer.php and add new filter to disable it.
+- TWEAK: Change all ambiguous labels and terms on Customizer options to be more self-explanatory.
+
+v0.3.0
+- Release.

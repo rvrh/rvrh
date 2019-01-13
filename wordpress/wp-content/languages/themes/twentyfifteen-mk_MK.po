@@ -1,0 +1,298 @@
+# Translation of Themes - Twenty Fifteen in Macedonian
+# This file is distributed under the same license as the Themes - Twenty Fifteen package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-08-18 16:52:11+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n==1 || n%10==1 ? 0 : 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: mk\n"
+"Project-Id-Version: Themes - Twenty Fifteen\n"
+
+#. Description of the plugin/theme
+msgid "Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer."
+msgstr "Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer."
+
+#. Theme Name of the plugin/theme
+msgid "Twenty Fifteen"
+msgstr "Twenty Fifteen"
+
+#. translators: %s: post title
+#: inc/template-tags.php:130
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Остави коментар<span class=\"screen-reader-text\"> на %s</span>"
+
+#: single.php:39
+msgid "Previous post:"
+msgstr "Претходен напис:"
+
+#: single.php:38
+msgid "Previous"
+msgstr "Претходен"
+
+#: single.php:36
+msgid "Next post:"
+msgstr "Следен напис:"
+
+#: single.php:35
+msgid "Next"
+msgstr "Следно"
+
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr "Резултати од пребарувањето за: %s"
+
+#: inc/template-tags.php:120
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "Целосна големина"
+
+#: inc/template-tags.php:108
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "Ознаки"
+
+#: inc/template-tags.php:99
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "Категории"
+
+#: inc/template-tags.php:95 inc/template-tags.php:104
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:89
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr "Автор"
+
+#: inc/template-tags.php:79
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "Објавено на"
+
+#: inc/template-tags.php:56
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "Формат"
+
+#: inc/template-tags.php:49
+msgid "Featured"
+msgstr "Истакнато"
+
+#: inc/template-tags.php:30
+msgid "Newer Comments"
+msgstr "Нови коментари"
+
+#: inc/template-tags.php:26
+msgid "Older Comments"
+msgstr "Стари коментари"
+
+#: inc/template-tags.php:23
+msgid "Comment navigation"
+msgstr "Навигација за коментари"
+
+#: inc/customizer.php:226
+msgid "Blue"
+msgstr "Сина"
+
+#: inc/customizer.php:215
+msgid "Purple"
+msgstr "Виолетова"
+
+#: inc/customizer.php:204
+msgid "Pink"
+msgstr "Розева"
+
+#: inc/customizer.php:193
+msgid "Yellow"
+msgstr "Жолта"
+
+#: inc/customizer.php:182
+msgid "Dark"
+msgstr "Темна"
+
+#: inc/customizer.php:171
+msgid "Default"
+msgstr "Стандардно"
+
+#: inc/customizer.php:93
+msgid "Header and Sidebar Background Color"
+msgstr "Позадинска боја за заглавие и странична лента"
+
+#: inc/customizer.php:72 inc/customizer.php:94 inc/customizer.php:101
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr "Се применува кај заглавијата на малите екрани и страничната лента кај широките екрани."
+
+#: inc/customizer.php:71
+msgid "Header and Sidebar Text Color"
+msgstr "Боја на текст за заглавие и странична лента"
+
+#: inc/customizer.php:51
+msgid "Base Color Scheme"
+msgstr "Основна шема со бои"
+
+#: inc/back-compat.php:37 inc/back-compat.php:48 inc/back-compat.php:62
+msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "Twenty Fifteen работи на WordPress 4.1+. Вие ја користете верзијата %s. Ве молам надградата и обидете се повторно."
+
+#: image.php:88
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">Објавено во</span><span class=\"post-title\">%title</span>"
+
+#: image.php:25
+msgid "Next Image"
+msgstr "Следна слика"
+
+#: image.php:25
+msgid "Previous Image"
+msgstr "Претходна слика"
+
+#: header.php:49
+msgid "Menu and widgets"
+msgstr "Мени и елементи"
+
+#: header.php:26
+msgid "Skip to content"
+msgstr "Оди на содржината"
+
+#: functions.php:312
+msgid "collapse child menu"
+msgstr "затвори го дете менито"
+
+#: functions.php:311
+msgid "expand child menu"
+msgstr "отвори го дете менито"
+
+#. Translators: To add an additional character subset specific to your
+#. language, translate this to 'greek', 'cyrillic', 'devanagari' or
+#. 'vietnamese'. Do not translate into your own language.
+#: functions.php:238
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr "нема подмножество"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Inconsolata, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:230
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Noto Serif, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:222
+msgctxt "Noto Serif font: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Noto Sans, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:214
+msgctxt "Noto Sans font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:187
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Додади елементи за да се појават во вашата странична лента."
+
+#: functions.php:185
+msgid "Widget Area"
+msgstr "Област за елементи"
+
+#: functions.php:87
+msgid "Social Links Menu"
+msgstr "Мени со социјални линкови"
+
+#: functions.php:86
+msgid "Primary Menu"
+msgstr "Примарно мени"
+
+#: footer.php:31
+msgid "Proudly powered by %s"
+msgstr "Гордо работи на %s"
+
+#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 2.0)  #-#-#-#-#
+#. Author URI of the plugin/theme
+#: footer.php:30
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: content-none.php:31
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Изгледа дека не можеме да го пронајдеме тоа што го барате. Можеби формата за пребарување може да ви помогне."
+
+#: content-none.php:26
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Жалам, но нема совпаѓања со вашиот термин за пребарување. Ве молам обидете се повторно со некој друг клучен збор."
+
+#: content-none.php:22
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Спремни да го објавите вашиот прв напис? <a href=\"%1$s\">Започнете овде</a>."
+
+#: content-none.php:15
+msgid "Nothing Found"
+msgstr "Не е пронајдено ништо"
+
+#: content-link.php:60 content-page.php:37 content-search.php:28
+#: content-search.php:33 content.php:61 image.php:74
+msgid "Edit"
+msgstr "Уреди"
+
+#: content-link.php:39 content-page.php:26 content.php:41 image.php:61
+msgid "Pages:"
+msgstr "Страници:"
+
+#. translators: %s: Name of current post
+#: content-link.php:32 content.php:34 inc/template-tags.php:249
+msgid "Continue reading %s"
+msgstr "Продолжи со читање %s"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "Коментарите се затворени."
+
+#: author-bio.php:34
+msgid "View all posts by %s"
+msgstr "Види ги сите написи од %s"
+
+#: author-bio.php:12
+msgid "Published by"
+msgstr "Објавено од"
+
+#: archive.php:53 content-link.php:43 content-page.php:30 content.php:45
+#: image.php:65 index.php:50 search.php:43
+msgid "Page"
+msgstr "Страница"
+
+#: archive.php:52 index.php:49 search.php:42
+msgid "Next page"
+msgstr "Следна страница"
+
+#: archive.php:51 index.php:48 search.php:41
+msgid "Previous page"
+msgstr "Претходна страница"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Изгледа дека ништо не е пронајдено на оваа локација. Може да се обидете со пребарување."
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Упс! Оваа страница не може да биде пронајдена."
+
+#. Author of the plugin/theme
+msgid "the WordPress team"
+msgstr "Тимот на WordPress"
+
+#. Theme URI of the plugin/theme
+msgid "https://wordpress.org/themes/twentyfifteen/"
+msgstr "https://wordpress.org/themes/twentyfifteen/"

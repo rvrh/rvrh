@@ -1,0 +1,244 @@
+
+@import "media-queries";
+
+
+
+// Rem output with px fallback
+@mixin font-size($sizeValue: 1) {
+	font-size: ($sizeValue * 16) * 1px;
+	font-size: $sizeValue * 1rem;
+}
+
+// Center block
+@mixin center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// Clearfix
+@mixin clearfix() {
+	content: "";
+	display: table;
+	table-layout: fixed;
+}
+
+// Clear after (not all clearfix need this also)
+@mixin clearfix-after() {
+	clear: both;
+}
+
+// Column width with margin
+@mixin column-width($numberColumns: 3) {
+	width: map-get( $columns, $numberColumns ) - ( ( $columns__margin * ( $numberColumns - 1 ) ) / $numberColumns );
+}
+
+
+// Browser Prefixes
+@mixin transition($transition) {
+	-webkit-transition: $transition;
+	-moz-transition: $transition;
+	-ms-transition: $transition;
+	transition: $transition;
+}
+
+@mixin transition-property($property...) {
+	-webkit-transition-property: $property;
+	-moz-transition-property: $property;
+	-ms-transition-property: $property;
+	transition-property: $property;
+}
+@mixin transform($transforms) {
+	-webkit-transform: $transforms;
+	-moz-transform: $transforms;
+	-ms-transform: $transforms;
+	transform: $transforms;
+}
+
+
+//
+@mixin transition-delay($delay...) {
+    -moz-transition-delay:    $delay;
+    -o-transition-delay:      $delay;
+    -webkit-transition-delay: $delay;
+    transition-delay:         $delay;
+}
+// Shadow
+@mixin box-shadow($top, $left, $blur, $color, $inset: false) {
+  @if $inset {
+    -webkit-box-shadow:inset $top $left $blur $color;
+    -moz-box-shadow:inset $top $left $blur $color;
+    box-shadow:inset $top $left $blur $color;
+  } @else {
+    -webkit-box-shadow: $top $left $blur $color;
+    -moz-box-shadow: $top $left $blur $color;
+    box-shadow: $top $left $blur $color;
+  }
+}
+
+$base-font-size: 16px;
+/**
+ * Strips the unit from a given number-unit-combination and returns the number.
+ * @link: http://stackoverflow.com/a/12335841/1779999
+ * @usage: parse-int(10px) => 10
+ */
+
+@function parse-int($number) {
+  @return $number / ($number * 0 + 1);
+}
+
+/**
+ * Simply adds the em unit to a given number. This is used twice in the 
+ * function underneath, thus the need for a separate function.
+ */
+
+@function add-em-unit($number) {
+  @return $number * 1em;
+}
+
+/**
+ * Calculates em values for a given list of (px or em) values and a given em 
+ * base. Multiply base values for nested em structures (last @usage example).
+ * @usage: em(10px, 1.125) => .55556em
+ *         em(24px, .875em) => 1.71429em
+ *         em(12px 0 7em rgba(0, 0, 0, .7), 1.75) => .42857em 0 4em rgba(0, 0, 0, 0.7)
+ *         em(12px) + em(3em) => 3.75em
+ *         em(23px, em(53px)) => .43396em
+ *         em(24px, 1.5 * 1.125) => .88889em
+ */
+
+@function em($values, $em-base: 1) {
+  $base-font-size: parse-int($base-font-size);
+  $em-base: parse-int($em-base);
+  $result: ();
+
+  @each $value in $values {
+    @if $value == 0 or type-of($value) != "number" {
+      $result: append($result, $value);
+    } @else {
+      $unit: unit($value);
+      $value: parse-int($value);
+
+      @if $unit == "px" {
+        $result: append($result, add-em-unit($value / ($base-font-size * $em-base)));
+      } @else if $unit == "em" {
+        $result: append($result, add-em-unit($value / $em-base));
+      }
+    }
+  }
+  
+  /**
+   * If only one value is provided, output the instance of that object instead 
+   * of the whole list. This enables use cases like nested function invocations 
+   * (e.g. `em(2px, em(15px))`) or additions/subtractions (e.g. `em(5px) + em(32px)`).
+   */
+  @if length($result) == 1 {
+    @return nth($result, 1);
+  } @else {
+    @return $result;
+  }
+}
+
+
+// PlaceHolder
+@mixin input-placeholder {
+    &.placeholder { @content; }
+    &:-moz-placeholder { @content; }
+    &::-moz-placeholder { @content; }
+    &:-ms-input-placeholder { @content; }
+    &::-webkit-input-placeholder { @content; } 
+}
+
+
+// prefix declarations
+@mixin prefixed($property, $value) {
+  @if $webkit == true {
+    -webkit-#{$property}: #{$value};
+  }
+
+  @if $moz == true {
+    -moz-#{$property}: #{$value};
+  }
+
+  @if $ms == true {
+    -ms-#{$property}: #{$value};
+  }
+
+  @if $o == true {
+    -o-#{$property}: #{$value};
+  }
+
+  #{$property}: #{$value};
+}
+
+// prefix keyframes
+@mixin keyframes($name) {
+  @if $webkit == true {
+    @-webkit-keyframes #{$name} {
+      @content;
+    }
+  }
+
+  @if $moz == true {
+    @-moz-keyframes #{$name} {
+      @content;
+    }
+  }
+
+  @if $ms == true {
+    @-ms-keyframes #{$name} {
+      @content;
+    }
+  }
+
+  @if $o == true {
+    @-o-keyframes #{$name} {
+      @content;
+    }
+  }
+
+  @keyframes #{$name} {
+    @content;
+  }
+}
+
+
+ 
+
+/* Underline Reveal */
+@mixin underline-reveal {
+  $duration: $mediumDuration;
+
+ 
+ 
+  overflow: hidden;
+
+  &:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: $red;
+    height: 4px;
+    @include prefixed(transform, translateY(4px));
+    @include prefixed(transition-property, transform);
+    @include prefixed(transition-duration, $duration);
+    @include prefixed(transition-timing-function, ease-out);
+  }
+
+  &:hover,
+  &:focus,
+  &:active {
+
+    &:before {
+      @include prefixed(transform, translateY(0));
+    }
+  }
+}
+
+
+
+
+

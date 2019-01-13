@@ -1,0 +1,2147 @@
+# Translation of Themes - Suki in Dutch
+# This file is distributed under the same license as the Themes - Suki package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-11-26 16:30:42+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: nl\n"
+"Project-Id-Version: Themes - Suki\n"
+
+#. Theme Name of the plugin/theme
+msgid "Suki"
+msgstr "Suki"
+
+#. Description of the plugin/theme
+msgid "Suki is a multi-purpose WordPress theme suitable for blog, business websites, portfolio, or even WooCommerce stores. It's extremely lightweight, which is less than 20KB resources and fewest HTTP requests on frontend, your site definitely runs faster with Suki. Freely build your content with any editor you love, because Suki is fully compatible with the new Gutenberg editor, Elementor, and other page builder plugins. It also contains plentiful theme options, enables you to customize layout, typography, colors, and also Header and Footer Builder. Suki is definitely 100% HTML valid and integrated with Schema.org microdata, so search engines would surely love your site. With the built in Hooks API, developers could easily extend the theme features to the next level. Learn more about Suki and its premium modules at https://sukiwp.com/."
+msgstr "Suki is een veelzijdig WordPress-thema geschikt voor blogs, zakelijke websites, portfolio of zelfs WooCommerce-winkels. Het is extreem lichtgewicht, wat minder is dan 20KB bronnen en de minste HTTP-verzoeken op de frontend, uw site draait absoluut sneller met Suki. Bouw uw inhoud vrijelijk samen met elke gewenste editor, want Suki is volledig compatibel met de nieuwe Gutenberg-editor, Elementor en andere plug-ins voor het maken van pagina's. Het bevat ook tal van thema-opties, waarmee u lay-out, typografie, kleuren en ook kop- en voettekstbouwer kunt aanpassen. Suki is zeker 100% HTML-geldig en geïntegreerd met Schema.org-microdata, dus zoekmachines zouden zeker van je site houden. Met de ingebouwde hooks-API kunnen ontwikkelaars eenvoudig de themafuncties uitbreiden naar het volgende niveau. Lees meer over Suki en zijn premium modules op https://sukiwp.com/."
+
+#: inc/helpers.php:436
+msgid "Blocks"
+msgstr "Blokken"
+
+#: inc/customizer/options/page-settings.php:285
+msgctxt "Suki Pro upsell"
+msgid "Enable / disable transparent header on this page"
+msgstr "Activeer of deactiveer de transparante header op deze pagina"
+
+#: inc/customizer/options/header--top-main-bottom-bar.php:292
+msgid "Menu link highlight text color"
+msgstr "Menu link highlight tekstkleur"
+
+#: inc/customizer/options/header--top-main-bottom-bar.php:215
+msgid "Additional effect on menu item when hovered."
+msgstr "Extra effect op menu-item bij hover staat."
+
+#: inc/customizer/options/header--mobile-main-bar.php:92
+#: inc/customizer/options/header--mobile-vertical-bar.php:104
+#: inc/customizer/options/header--top-main-bottom-bar.php:131
+msgid "Spacing between elements"
+msgstr "Ruimte tussen elementen"
+
+#: inc/admin/class-suki-admin.php:421
+msgid "Learn more"
+msgstr "Leer meer"
+
+#: inc/admin/class-suki-admin.php:400
+msgid "More features are available on Suki Pro"
+msgstr "Meer functies zijn beschikbaar in Suki Pro"
+
+#. translators: %1$s: theme name; %2$s: link to theme URL.
+#: inc/admin/class-suki-admin.php:383
+msgid "Your website is now in good hands! %1$s offers highly customizable design, and lightning fast performance. Learn more about its full features and premium modules at %2$s."
+msgstr "Uw website is nu in goede handen! %1$s biedt een sterk aanpasbaar ontwerp en razendsnelle prestaties. Lees meer over de volledige functies en premiummodules op %2$s."
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:479
+msgid "Hide title"
+msgstr "Verberg titel"
+
+#: inc/admin/class-suki-admin.php:474
+msgctxt "Suki Pro upsell"
+msgid "More about Suki Pro"
+msgstr "Meer over Suki Pro"
+
+#: inc/admin/class-suki-admin.php:468
+msgid "coming soon"
+msgstr "Binnenkort beschikbaar"
+
+#: inc/admin/class-suki-admin.php:385
+msgid "our website"
+msgstr "Onze website"
+
+#: inc/admin/class-suki-admin.php:127
+msgid "here"
+msgstr "Hier"
+
+#. translators: link to the documentation article.
+#: inc/admin/class-suki-admin.php:126
+msgid "Fell in love with our screenshot? Learn how to replicate the same design %s."
+msgstr "Ben je verliefd geworden op deze screenshot? Leer hoe u hetzelfde ontwerp %s namaakt."
+
+#: inc/widgets/class-suki-widget-posts.php:106
+msgid "Number of posts to show:"
+msgstr "Aantal berichten te tonen:"
+
+#. translators: %s: current post title.
+#: template-parts/content.php:55
+msgid "Continue Reading %s"
+msgstr "Lees Verder %s"
+
+#: template-parts/content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Sorry, maar niets paste bij uw zoektermen. Probeer het opnieuw met een aantal verschillende zoekwoorden."
+
+#: inc/template-tags.php:1358
+msgid "Comments are closed."
+msgstr "Reageren is gesloten."
+
+#: inc/widgets/class-suki-widget-posts.php:102
+msgid "Title:"
+msgstr "Titel:"
+
+#: 404.php:31
+msgid "Page Not Found"
+msgstr "Pagina niet gevonden"
+
+#: 404.php:32
+msgid "It looks like nothing was found at this location. Maybe try searching?"
+msgstr "Het lijkt erop dat er niets is gevonden op deze locatie."
+
+#: inc/class-suki.php:212 inc/template-tags.php:517
+msgid "Mobile Header Menu"
+msgstr "Mobile Header Menu"
+
+#: inc/customizer/options/footer--builder.php:80
+msgid "Footer Menu"
+msgstr "Voettekstmenu"
+
+#: inc/class-suki.php:257
+msgid "Sidebar"
+msgstr "Zijbalk"
+
+#. translators: %d: number of footer widgets column.
+#: inc/class-suki.php:268
+msgid "Footer Widgets Column %d"
+msgstr "Voettekst Widgets Kolom %d"
+
+#: inc/helpers.php:411
+msgid "Header (Advanced)"
+msgstr "Header (Geavanceerd)"
+
+#: inc/helpers.php:421
+msgid "Sticky Header"
+msgstr "Sticky Header"
+
+#: inc/helpers.php:416
+msgid "Transparent Header"
+msgstr "Transparante koptekst"
+
+#: inc/helpers.php:431
+msgid "Footer (Advanced)"
+msgstr "Voettekst (geavanceerd)"
+
+#: inc/helpers.php:456
+msgid "Preloader Screen"
+msgstr "Preloader scherm"
+
+#: inc/helpers.php:461
+msgid "Blog (Advanced)"
+msgstr "Blog (geavanceerd)"
+
+#: inc/helpers.php:466
+msgid "WooCommerce (Advanced)"
+msgstr "WooCommerce (geavanceerd)"
+
+#: inc/helpers.php:441
+msgid "Custom Fonts"
+msgstr "Aangepaste lettertypen"
+
+#: inc/helpers.php:446
+msgid "Custom Icons"
+msgstr "Aangepaste pictogrammen"
+
+#: inc/helpers.php:451
+msgid "Color Palette"
+msgstr "Kleurenpalet"
+
+#: inc/helpers.php:471
+msgid "White Label"
+msgstr "Wit label"
+
+#. translators: %s: pingback url.
+#: inc/template-functions.php:458
+msgid "Expand / Collapse"
+msgstr "Uitvouwen/samenvouwen"
+
+#. translators: %s: search query.
+#: inc/template-tags.php:206
+msgid "Search Results for: %s"
+msgstr "Zoekresultaten voor: %s"
+
+#: inc/template-tags.php:225
+msgid "Oops! That page can not be found."
+msgstr "Oops! Die pagina kan niet gevonden worden."
+
+#: inc/template-tags.php:247
+msgid "Skip to content"
+msgstr "Meteen naar de inhoud"
+
+#. translators: %s: header menu number.
+#: inc/template-tags.php:499
+msgid "Header Menu %s"
+msgstr "Header Menu %s"
+
+#: inc/template-tags.php:553
+msgid "Search"
+msgstr "Zoeken"
+
+#: inc/customizer/options/header--builder.php:108 inc/template-tags.php:593
+msgid "Mobile Menu"
+msgstr "Mobiel menu"
+
+#: inc/template-tags.php:1262
+msgid "Older Posts"
+msgstr "Oudere posts"
+
+#: inc/template-tags.php:1263
+msgid "Newer Posts"
+msgstr "Nieuwere posts"
+
+#: inc/template-tags.php:1307
+msgid "%title &raquo;"
+msgstr "%t itle & raquo;"
+
+#: inc/template-tags.php:1308
+msgid "&laquo; %title"
+msgstr "& Laquo; %t it"
+
+#. translators: %1$s: title.
+#: inc/template-tags.php:1325
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Eén gedachte over & ldquo; %1$s & rdquo;"
+
+#. translators: %1$s: comment count number, %2$s: title.
+#: inc/template-tags.php:1331
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s dacht op & ldquo; %2$s & rdquo;"
+msgstr[1] "%1$s dacht op & ldquo; %2$s & rdquo;"
+
+#. Template Name of the plugin/theme
+msgid "Page Builder"
+msgstr "Page Builder"
+
+#: template-parts/content-grid.php:56 template-parts/content-page.php:55
+#: template-parts/content-search.php:53 template-parts/content.php:62
+msgid "Pages:"
+msgstr "Pagina’s:"
+
+#: template-parts/content-none.php:16
+msgid "Nothing Found"
+msgstr "Niets gevonden"
+
+#: template-parts/content-none.php:18
+msgid "Ready to publish your first post? Get started here."
+msgstr "Klaar om je eerste post te publiceren? Begin hier."
+
+#: template-parts/content-none.php:30
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Het lijkt erop dat we niet kunnen vinden waarnaar u op zoek bent. Misschien kan zoeken helpen."
+
+#: inc/admin/class-suki-admin-fields.php:159
+#: inc/customizer/custom-controls/class-suki-customize-control-color.php:58
+#: inc/customizer/custom-controls/class-suki-customize-control-shadow.php:86
+msgid "Hex / RGBA"
+msgstr "Hex / RGBA"
+
+#: inc/admin/class-suki-admin-fields.php:200
+msgid "Upload & choose file"
+msgstr "Upload & kies bestand"
+
+#: inc/admin/class-suki-admin-fields.php:201
+msgid "Choose"
+msgstr "Kiezen"
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:65
+#: inc/customizer/options/_sections.php:273
+#: inc/customizer/options/page-settings.php:31
+msgid "Content & Sidebar"
+msgstr "Inhoud en zijbalk"
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:66
+#: inc/customizer/options/_sections.php:149
+#: inc/customizer/options/page-settings.php:121
+msgid "Header"
+msgstr "Header"
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:67
+#: inc/customizer/options/_sections.php:266
+#: inc/customizer/options/page-settings.php:161
+msgid "Page Header (Title Bar)"
+msgstr "Paginakoptekst (titelbalk)"
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:68
+#: inc/customizer/options/_sections.php:307
+#: inc/customizer/options/page-settings.php:241
+msgid "Footer"
+msgstr "Footer"
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:225
+#: inc/compatibilities/woocommerce/class-suki-compatibility-woocommerce.php:372
+msgid "Edit Page settings here"
+msgstr "Bewerk pagina-instellingen hier"
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:359
+#: inc/customizer/options/page-settings.php:134
+msgid "Disable main header"
+msgstr "Schakel hoofdkop uit"
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:367
+#: inc/admin/class-suki-admin-metabox-page-settings.php:386
+#: inc/admin/class-suki-admin-metabox-page-settings.php:409
+#: inc/admin/class-suki-admin-metabox-page-settings.php:432
+#: inc/admin/class-suki-admin-metabox-page-settings.php:451
+#: inc/admin/class-suki-admin-metabox-page-settings.php:521
+#: inc/admin/class-suki-admin-metabox-page-settings.php:540
+msgid "-- Inherit from Customizer --"
+msgstr "- Overnemen van Customizer -"
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:368
+#: inc/admin/class-suki-admin-metabox-page-settings.php:387
+#: inc/admin/class-suki-admin-metabox-page-settings.php:522
+#: inc/admin/class-suki-admin-metabox-page-settings.php:541
+msgid "No"
+msgstr "Nee"
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:369
+#: inc/admin/class-suki-admin-metabox-page-settings.php:388
+#: inc/admin/class-suki-admin-metabox-page-settings.php:523
+#: inc/admin/class-suki-admin-metabox-page-settings.php:542
+msgid "Yes"
+msgstr "Ja"
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:378
+#: inc/customizer/options/page-settings.php:147
+msgid "Disable mobile header"
+msgstr "Schakel mobiele header uit"
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:424
+msgid "Content container"
+msgstr "Inhoud container"
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:433
+#: inc/customizer/options/content--section.php:30
+#: inc/customizer/options/footer--bottom-bar.php:51
+#: inc/customizer/options/footer--widgets-bar.php:31
+#: inc/customizer/options/header--top-main-bottom-bar.php:58
+#: inc/customizer/options/page-header.php:55
+#: inc/customizer/options/page-settings.php:48
+msgid "Full width section, wrapped content"
+msgstr "Volledige breedte sectie, ingepakte inhoud"
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:434
+#: inc/customizer/options/content--section.php:31
+#: inc/customizer/options/footer--bottom-bar.php:52
+#: inc/customizer/options/footer--widgets-bar.php:32
+#: inc/customizer/options/header--top-main-bottom-bar.php:59
+#: inc/customizer/options/page-header.php:56
+#: inc/customizer/options/page-settings.php:49
+msgid "Full width content"
+msgstr "Inhoud over de volledige breedte"
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:443
+#: inc/customizer/options/content--section.php:45
+#: inc/customizer/options/page-settings.php:64
+msgid "Content & sidebar layout"
+msgstr "Content- en sidebar-lay-out"
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:452
+#: inc/customizer/options/content--section.php:47
+#: inc/customizer/options/page-settings.php:67
+msgid "Full content, no sidebar"
+msgstr "Volledige inhoud, geen zijbalk"
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:453
+#: inc/customizer/options/content--section.php:48
+#: inc/customizer/options/page-settings.php:68
+msgid "Narrow content, no sidebar"
+msgstr "Smalle inhoud, geen zijbalk"
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:454
+#: inc/admin/class-suki-admin-metabox-page-settings.php:455
+#: inc/customizer/options/content--section.php:49
+#: inc/customizer/options/content--section.php:50
+#: inc/customizer/options/page-settings.php:69
+#: inc/customizer/options/page-settings.php:70
+msgid "Right sidebar"
+msgstr "Rechter zijbalk"
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:454
+#: inc/admin/class-suki-admin-metabox-page-settings.php:455
+#: inc/customizer/options/content--section.php:49
+#: inc/customizer/options/content--section.php:50
+#: inc/customizer/options/page-settings.php:69
+#: inc/customizer/options/page-settings.php:70
+msgid "Left sidebar"
+msgstr "Linker zijbalk"
+
+#: inc/customizer/options/page-settings.php:93
+msgid "Hide post title"
+msgstr "Titel van het bericht verbergen"
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:493
+#: inc/customizer/options/page-settings.php:106
+msgid "Hide featured image"
+msgstr "Verberg de afgebeelde afbeelding"
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:513
+#: inc/customizer/options/page-settings.php:254
+msgid "Disable footer widgets"
+msgstr "Schakel voettekst-widgets uit"
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:532
+#: inc/customizer/options/page-settings.php:267
+msgid "Disable footer bottom"
+msgstr "Zet voettekst onderaan uit"
+
+#: inc/admin/class-suki-admin.php:455
+msgid "Go to Customizer"
+msgstr "Ga naar Customizer"
+
+#: inc/admin/class-suki-admin.php:468
+msgid "Suki Pro"
+msgstr "Suki Pro"
+
+#: inc/admin/class-suki-admin.php:470
+msgid "Make your site even better with our premium modules, available in a very affordable price."
+msgstr "Maak uw site nog beter met onze premium modules, beschikbaar tegen een zeer betaalbare prijs."
+
+#: inc/admin/class-suki-admin.php:488
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: inc/admin/class-suki-admin.php:490
+msgid "Not sure how something works? Our documentation might help you figure out the solution."
+msgstr "Weet je niet zeker hoe iets werkt? Onze documentatie kan u helpen de oplossing te vinden."
+
+#: inc/admin/class-suki-admin.php:494
+msgid "Go to our Documentation"
+msgstr "Ga naar onze documentatie"
+
+#: inc/admin/class-suki-admin.php:508
+msgid "Community"
+msgstr "Gemeenschap"
+
+#: inc/admin/class-suki-admin.php:510
+msgid "Join our Facebook group for latest updates info and discussions with other Suki users."
+msgstr "Word lid van onze Facebook-groep voor de laatste updates, info en discussies met andere Suki-gebruikers."
+
+#: inc/admin/class-suki-admin.php:514
+msgid "Join our Facebook Group"
+msgstr "Word lid van onze Facebook-groep"
+
+#: inc/admin/class-suki-admin.php:528
+msgid "Enjoy Suki?"
+msgstr "Geniet van Suki?"
+
+#: inc/admin/class-suki-admin.php:530
+msgid "Please take a minute to leave a review on Suki, we would really appreciate it!"
+msgstr "Neem alstublieft een minuut de tijd om een ​​recensie achter te laten bij Suki, we zouden het erg op prijs stellen!"
+
+#: inc/admin/class-suki-admin.php:534
+msgid "Rate us &#9733;&#9733;&#9733;&#9733;&#9733;"
+msgstr "Beoordeel ons & # 9733; & # 9733; & # 9733; & # 9733; & # 9733;"
+
+#: inc/customizer/class-suki-customizer.php:423
+msgid "Search Results Page"
+msgstr "Zoekresultatenpagina"
+
+#: inc/customizer/class-suki-customizer.php:426
+msgid "404 Page"
+msgstr "404 pagina"
+
+#. translators: %s: post type's plural name.
+#: inc/customizer/class-suki-customizer.php:450
+msgid "%s Archive Page"
+msgstr "%s Archiefpagina"
+
+#. translators: %s: post type's singular name.
+#: inc/customizer/class-suki-customizer.php:454
+msgid "Single %s Page"
+msgstr "Enkele %s pagina"
+
+#. translators: %s: post type's singular name.
+#: inc/customizer/class-suki-customizer.php:456
+msgid "These page settings would be used as default for all Single %1$s. You can override these settings via meta box on the %1$s editor."
+msgstr "Deze pagina-instellingen worden standaard gebruikt voor alle afzonderlijke %1$s . U kunt deze instellingen overschrijven via de metabox op de pagina %1$s bewerken."
+
+#. translators: %s: theme name.
+#: inc/widgets/class-suki-widget-posts.php:14
+msgid "%s - Posts with Featured Image"
+msgstr "Suki - berichten met een uitgelichte afbeelding"
+
+#: inc/widgets/class-suki-widget-posts.php:17
+msgid "Posts list with thumbnail images"
+msgstr "Berichtenlijst met miniatuurafbeeldingen"
+
+#: inc/widgets/class-suki-widget-posts.php:60
+msgid "(no title)"
+msgstr "(geen titel)"
+
+#: inc/widgets/class-suki-widget-posts.php:90
+msgid "Recent Published"
+msgstr "Recent gepubliceerd"
+
+#: inc/widgets/class-suki-widget-posts.php:91
+msgid "Random"
+msgstr "Willekeurig"
+
+#: inc/widgets/class-suki-widget-posts.php:110
+msgid "Sort By:"
+msgstr "Sorteer op:"
+
+#: inc/widgets/class-suki-widget-posts.php:120
+msgid "Query from All Categories?"
+msgstr "Vraag van alle categorieën?"
+
+#: inc/widgets/class-suki-widget-posts.php:124
+msgid "or Choose Specific Categories:"
+msgstr "of kies specifieke categorieën:"
+
+#: inc/widgets/class-suki-widget-posts.php:134
+msgid "Display post date?"
+msgstr "Postdatum weergeven?"
+
+#: inc/compatibilities/woocommerce/class-suki-compatibility-woocommerce.php:89
+msgid "Sidebar Shop"
+msgstr "Sidebar Shop"
+
+#: inc/compatibilities/woocommerce/class-suki-compatibility-woocommerce.php:91
+msgid "Sidebar used in WooCommerce pages"
+msgstr "Zijbalk gebruikt op WooCommerce-pagina's"
+
+#: inc/compatibilities/woocommerce/class-suki-compatibility-woocommerce.php:481
+#: inc/compatibilities/woocommerce/customizer/options/_sections.php:33
+msgid "Shopping Cart"
+msgstr "Winkelmand"
+
+#: inc/compatibilities/woocommerce/class-suki-compatibility-woocommerce.php:738
+msgid "Logout"
+msgstr "Uitloggen"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-builder.php:135
+msgid "Add element"
+msgstr "Element toevoegen"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-pro-teaser.php:39
+#: inc/customizer/custom-controls/class-suki-customize-section-pro-teaser.php:51
+msgctxt "Suki Pro upsell"
+msgid "Learn More"
+msgstr "Kom meer te weten"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-shadow.php:59
+msgid "H-Offset"
+msgstr "H-Offset"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-shadow.php:60
+msgid "V-Offset"
+msgstr "Offset-V"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-shadow.php:61
+msgid "Blur"
+msgstr "Vervagen"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-shadow.php:62
+msgid "Spread"
+msgstr "Verspreiding"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-shadow.php:82
+msgid "Color"
+msgstr "Kleur"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:94
+msgid "Font"
+msgstr "Lettertype"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:95
+msgid "Weight"
+msgstr "Gewicht"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:96
+msgid "Style"
+msgstr "Stijl"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:97
+msgid "Transform"
+msgstr "Transformeren"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:98
+msgid "Size"
+msgstr "Grootte"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:99
+msgid "Line Height"
+msgstr "Lijnhoogte"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:100
+msgid "Spacing"
+msgstr "Tussenruimte"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:127
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:145
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:162
+#: inc/customizer/options/page-container.php:210
+#: inc/customizer/options/page-settings.php:47
+#: inc/customizer/options/page-settings.php:66
+#: inc/customizer/options/page-settings.php:177
+#: inc/customizer/options/page-settings.php:209
+msgid "Default"
+msgstr "Standaard"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:203
+msgid "Thin"
+msgstr "Dun"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:204
+msgid "Extra Light"
+msgstr "Extra licht"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:205
+msgid "Light"
+msgstr "Licht"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:206
+msgid "Regular"
+msgstr "Standaard"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:207
+msgid "Medium"
+msgstr "Medium"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:208
+msgid "Semi Bold"
+msgstr "Semi vet"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:209
+msgid "Bold"
+msgstr "Stoutmoedig"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:210
+msgid "Extra Bold"
+msgstr "Extra vet"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:211
+msgid "Black"
+msgstr "Zwart"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:214
+msgid "Normal"
+msgstr "Normaal"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:215
+msgid "Italic"
+msgstr "Cursief"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:218
+#: inc/customizer/options/content--sidebar.php:300
+#: inc/customizer/options/footer--widgets-bar.php:257
+#: inc/customizer/options/header--top-main-bottom-bar.php:217
+msgid "None"
+msgstr "Geen"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:219
+msgid "Uppercase"
+msgstr "Hoofdletters"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:220
+msgid "Lowercase"
+msgstr "Kleine letters"
+
+#: inc/customizer/custom-controls/class-suki-customize-control-typography.php:221
+msgid "Capitalize"
+msgstr "Hoofdletters maken"
+
+#: inc/customizer/options/blog--archive.php:28
+msgid "Posts layout"
+msgstr "Berichten lay-out"
+
+#: inc/customizer/options/blog--archive.php:30
+msgid "Default (same as Single Post page)"
+msgstr "Standaard (hetzelfde als Single Post-pagina)"
+
+#: inc/customizer/options/blog--archive.php:31
+msgid "Grid"
+msgstr "Grid"
+
+#: inc/customizer/options/blog--archive.php:45
+msgid "Navigation mode"
+msgstr "Navigatiemodus"
+
+#: inc/customizer/options/blog--archive.php:47
+msgid "Prev / Next buttons"
+msgstr "Vorige / Volgende knoppen"
+
+#: inc/customizer/options/blog--archive.php:48
+msgid "Pagination (page numbers)"
+msgstr "Paginering (paginanummers)"
+
+#: inc/customizer/options/_sections.php:250
+#: inc/customizer/options/_sections.php:381
+#: inc/customizer/options/header--html.php:62
+#: inc/customizer/options/header--search.php:91
+#: inc/customizer/options/page-settings.php:281
+msgctxt "Suki Pro upsell"
+msgid "More Options on Suki Pro"
+msgstr "Meer opties op Suki Pro"
+
+#: inc/customizer/options/blog--entry-default.php:28
+#: inc/customizer/options/blog--entry-grid.php:83
+msgid "Featured media position"
+msgstr "Aanbevolen mediapositie"
+
+#: inc/customizer/options/blog--entry-default.php:30
+#: inc/customizer/options/blog--entry-grid.php:85
+msgid "Before Post Header"
+msgstr "Vóór Post Header"
+
+#: inc/customizer/options/blog--entry-default.php:31
+#: inc/customizer/options/blog--entry-grid.php:86
+msgid "After Post Header"
+msgstr "Na berichtkop"
+
+#: inc/customizer/options/blog--entry-default.php:44
+msgid "Remove padding on featured media"
+msgstr "Verwijder opvulling op aanbevolen media"
+
+#: inc/customizer/options/blog--entry-default.php:56
+#: inc/customizer/options/blog--entry-grid.php:99
+msgid "Post header elements"
+msgstr "Post header-elementen"
+
+#: inc/customizer/options/blog--entry-default.php:58
+#: inc/customizer/options/blog--entry-grid.php:101
+msgid "Header Meta"
+msgstr "Header Meta"
+
+#: inc/customizer/options/_sections.php:118
+#: inc/customizer/options/blog--entry-default.php:59
+#: inc/customizer/options/blog--entry-grid.php:102
+msgid "Title"
+msgstr "Titel"
+
+#: inc/customizer/options/blog--entry-default.php:73
+#: inc/customizer/options/blog--entry-grid.php:116
+msgid "Header meta"
+msgstr "Header meta"
+
+#: inc/customizer/options/blog--entry-default.php:74
+#: inc/customizer/options/blog--entry-default.php:87
+#: inc/customizer/options/blog--entry-grid.php:117
+#: inc/customizer/options/blog--entry-grid.php:130
+msgid "Available tags: {{date}}, {{categories}}, {{tags}}, {{author}}, {{avatar}}, {{comments}}"
+msgstr "Beschikbare tags: {{date}}, {{categories}}, {{tags}}, {{author}}, {{avatar}}, {{reacties}}"
+
+#: inc/customizer/options/blog--entry-default.php:86
+#: inc/customizer/options/blog--entry-grid.php:129
+msgid "Footer meta"
+msgstr "Voettekst meta"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:189
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:255
+#: inc/customizer/options/blog--entry-grid.php:28
+msgid "Columns"
+msgstr "Kolommen"
+
+#: inc/customizer/options/blog--entry-grid.php:49
+#: inc/customizer/options/footer--widgets-bar.php:93
+msgid "Columns gutter"
+msgstr "Kolommengoot"
+
+#: inc/customizer/options/blog--entry-grid.php:70
+msgid "Grid Item"
+msgstr "Rasteritem"
+
+#: inc/customizer/options/blog--entry-grid.php:142
+msgid "Excerpt length"
+msgstr "Excerpt Length"
+
+#: inc/customizer/options/blog--single.php:27
+msgid "Show author bio"
+msgstr "Toon auteur bio"
+
+#: inc/customizer/options/blog--single.php:39
+msgid "Show prev / next posts navigation"
+msgstr "Toon vorige / vorige berichten navigatie"
+
+#: inc/customizer/options/content--main.php:36
+#: inc/customizer/options/content--section.php:91
+#: inc/customizer/options/content--sidebar.php:138
+#: inc/customizer/options/elements--buttons.php:22
+#: inc/customizer/options/elements--form-inputs.php:22
+#: inc/customizer/options/footer--bottom-bar.php:75
+#: inc/customizer/options/footer--widgets-bar.php:55
+#: inc/customizer/options/header--mobile-main-bar.php:54
+#: inc/customizer/options/header--mobile-vertical-bar.php:85
+#: inc/customizer/options/header--top-main-bottom-bar.php:93
+#: inc/customizer/options/page-header.php:78
+msgid "Padding"
+msgstr "Padding"
+
+#: inc/customizer/options/content--main.php:55
+#: inc/customizer/options/content--sidebar.php:157
+#: inc/customizer/options/elements--buttons.php:41
+#: inc/customizer/options/elements--form-inputs.php:41
+#: inc/customizer/options/footer--bottom-bar.php:94
+#: inc/customizer/options/footer--widgets-bar.php:74
+#: inc/customizer/options/header--mobile-main-bar.php:73
+#: inc/customizer/options/header--top-main-bottom-bar.php:112
+#: inc/customizer/options/page-header.php:97
+msgid "Border"
+msgstr "Grens"
+
+#: inc/customizer/options/content--main.php:75
+#: inc/customizer/options/content--sidebar.php:177
+#: inc/customizer/options/footer--bottom-bar.php:114
+#: inc/customizer/options/footer--widgets-bar.php:134
+#: inc/customizer/options/header--mobile-main-bar.php:113
+#: inc/customizer/options/header--mobile-vertical-bar.php:125
+#: inc/customizer/options/header--top-main-bottom-bar.php:152
+#: inc/customizer/options/page-header.php:192
+msgid "Typography"
+msgstr "Typografie"
+
+#. translators: %s: link to "Body (Base)" section.
+#: inc/customizer/options/content--main.php:78
+msgid "Inherit typography settings from %s."
+msgstr "Overgenomen typografie-instellingen van %s ."
+
+#: inc/customizer/options/_sections.php:81
+#: inc/customizer/options/content--main.php:79
+msgid "Body (Base)"
+msgstr "Lichaam (basis)"
+
+#: inc/customizer/options/content--main.php:94
+#: inc/customizer/options/content--sidebar.php:317
+#: inc/customizer/options/footer--bottom-bar.php:160
+#: inc/customizer/options/footer--widgets-bar.php:274
+#: inc/customizer/options/header--mobile-main-bar.php:147
+#: inc/customizer/options/header--mobile-vertical-bar.php:231
+#: inc/customizer/options/header--top-main-bottom-bar.php:280
+#: inc/customizer/options/page-header.php:270
+msgid "Colors"
+msgstr "Kleuren"
+
+#: inc/customizer/options/content--main.php:100
+msgid "Content Box BG color"
+msgstr "Inhoud Box BG-kleur"
+
+#: inc/customizer/options/content--main.php:101
+msgid "Content Box border color"
+msgstr "Rand inhoud inhoudvak"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--checkout.php:23
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-catalog.php:23
+#: inc/customizer/options/content--section.php:28
+#: inc/customizer/options/footer--bottom-bar.php:49
+#: inc/customizer/options/footer--widgets-bar.php:29
+#: inc/customizer/options/header--top-main-bottom-bar.php:56
+#: inc/customizer/options/page-header.php:53
+#: inc/customizer/options/page-settings.php:45
+msgid "Layout"
+msgstr "Lay-out"
+
+#. translators: %s: link to "Page Settings" section.
+#: inc/customizer/options/content--section.php:61
+msgid "Settings above are global default, optionally you can set different layout for each page type via %s."
+msgstr "De bovenstaande instellingen zijn standaardwaarden, optioneel kunt u voor elk paginatype een andere lay-out instellen via %s ."
+
+#: inc/customizer/options/_sections.php:445
+#: inc/customizer/options/content--section.php:62
+#: inc/customizer/options/page-header.php:31
+msgid "Page Settings"
+msgstr "Pagina-instellingen"
+
+#: inc/customizer/options/content--section.php:117
+msgid "Narrow content max width"
+msgstr "Smalle inhoud max. Breedte"
+
+#: inc/customizer/options/content--section.php:118
+msgid "Narrow content is a single column centered layout for main content (without sidebar). Narrow content should have less width than the content wrapper width."
+msgstr "Smalle inhoud is een gecentreerde lay-out met één kolom voor hoofdinhoud (zonder zijbalk). Smalle inhoud moet minder breedte hebben dan de breedte van de inhoudsboodschap."
+
+#: inc/customizer/options/content--sidebar.php:28
+#: inc/customizer/options/header--mobile-vertical-bar.php:65
+msgid "Width"
+msgstr "Breedte"
+
+#: inc/customizer/options/content--sidebar.php:53
+msgid "Gap with main content"
+msgstr "Hiaat met hoofdinhoud"
+
+#: inc/customizer/options/content--sidebar.php:79
+msgid "Widgets"
+msgstr "Widgets"
+
+#: inc/customizer/options/content--sidebar.php:93
+msgid "Widgets style"
+msgstr "Widgets-stijl"
+
+#: inc/customizer/options/content--sidebar.php:95
+msgid "Merged in one box"
+msgstr "Samengevoegd in één doos"
+
+#: inc/customizer/options/content--sidebar.php:96
+msgid "Separate boxes"
+msgstr "Aparte vakken"
+
+#: inc/customizer/options/content--sidebar.php:110
+#: inc/customizer/options/footer--widgets-bar.php:113
+msgid "Gap between widgets"
+msgstr "Ruimte tussen widgets"
+
+#: inc/customizer/options/content--sidebar.php:201
+#: inc/customizer/options/content--sidebar.php:233
+#: inc/customizer/options/footer--bottom-bar.php:146
+#: inc/customizer/options/footer--widgets-bar.php:158
+#: inc/customizer/options/footer--widgets-bar.php:190
+#: inc/customizer/options/header--mobile-vertical-bar.php:149
+#: inc/customizer/options/header--top-main-bottom-bar.php:176
+msgid "Text typography"
+msgstr "Teksttypografie"
+
+#: inc/customizer/options/content--sidebar.php:265
+#: inc/customizer/options/footer--widgets-bar.php:222
+msgid "Widget title typography"
+msgstr "Widget titel typografie"
+
+#: inc/customizer/options/content--sidebar.php:279
+#: inc/customizer/options/footer--widgets-bar.php:236
+msgid "Widget title alignment"
+msgstr "Widgettiteluitlijning"
+
+#: inc/customizer/options/content--sidebar.php:281
+#: inc/customizer/options/content--sidebar.php:283
+#: inc/customizer/options/footer--builder.php:84
+#: inc/customizer/options/footer--builder.php:86
+#: inc/customizer/options/footer--widgets-bar.php:238
+#: inc/customizer/options/footer--widgets-bar.php:240
+#: inc/customizer/options/header--builder.php:116
+#: inc/customizer/options/header--builder.php:118
+#: inc/customizer/options/header--mobile-vertical-bar.php:31
+#: inc/customizer/options/header--mobile-vertical-bar.php:32
+#: inc/customizer/options/header--mobile-vertical-bar.php:49
+#: inc/customizer/options/header--mobile-vertical-bar.php:51
+msgid "Right"
+msgstr "Rechts"
+
+#: inc/customizer/options/content--sidebar.php:281
+#: inc/customizer/options/content--sidebar.php:283
+#: inc/customizer/options/footer--builder.php:84
+#: inc/customizer/options/footer--builder.php:86
+#: inc/customizer/options/footer--widgets-bar.php:238
+#: inc/customizer/options/footer--widgets-bar.php:240
+#: inc/customizer/options/header--builder.php:116
+#: inc/customizer/options/header--builder.php:118
+#: inc/customizer/options/header--mobile-vertical-bar.php:31
+#: inc/customizer/options/header--mobile-vertical-bar.php:32
+#: inc/customizer/options/header--mobile-vertical-bar.php:49
+#: inc/customizer/options/header--mobile-vertical-bar.php:51
+msgid "Left"
+msgstr "Links"
+
+#: inc/customizer/options/content--sidebar.php:282
+#: inc/customizer/options/footer--builder.php:85
+#: inc/customizer/options/footer--widgets-bar.php:239
+#: inc/customizer/options/header--builder.php:117
+#: inc/customizer/options/header--mobile-vertical-bar.php:50
+msgid "Center"
+msgstr "Centrum"
+
+#: inc/customizer/options/content--sidebar.php:298
+#: inc/customizer/options/footer--widgets-bar.php:255
+msgid "Widget title decoration"
+msgstr "Widget titeldecoratie"
+
+#: inc/customizer/options/content--sidebar.php:301
+#: inc/customizer/options/footer--widgets-bar.php:258
+msgid "Box"
+msgstr "Doos"
+
+#: inc/customizer/options/content--sidebar.php:302
+#: inc/customizer/options/footer--widgets-bar.php:259
+#: inc/customizer/options/header--top-main-bottom-bar.php:221
+msgid "Border bottom"
+msgstr "Rand onderaan"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--other-elements.php:89
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--store-notice.php:28
+#: inc/customizer/options/content--sidebar.php:323
+#: inc/customizer/options/elements--buttons.php:110
+#: inc/customizer/options/elements--form-inputs.php:80
+#: inc/customizer/options/footer--bottom-bar.php:166
+#: inc/customizer/options/footer--widgets-bar.php:280
+#: inc/customizer/options/header--mobile-main-bar.php:153
+#: inc/customizer/options/header--mobile-vertical-bar.php:237
+#: inc/customizer/options/header--top-main-bottom-bar.php:286
+#: inc/customizer/options/page-header.php:276
+msgid "Background color"
+msgstr "Achtergrond kleur"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--other-elements.php:90
+#: inc/customizer/options/content--sidebar.php:324
+#: inc/customizer/options/elements--buttons.php:111
+#: inc/customizer/options/elements--form-inputs.php:81
+#: inc/customizer/options/footer--bottom-bar.php:167
+#: inc/customizer/options/footer--widgets-bar.php:281
+#: inc/customizer/options/header--mobile-main-bar.php:154
+#: inc/customizer/options/header--mobile-vertical-bar.php:238
+#: inc/customizer/options/header--top-main-bottom-bar.php:287
+#: inc/customizer/options/page-header.php:277
+msgid "Border color"
+msgstr "Rand kleur"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--other-elements.php:91
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--store-notice.php:29
+#: inc/customizer/options/content--sidebar.php:325
+#: inc/customizer/options/elements--body.php:55
+#: inc/customizer/options/elements--buttons.php:112
+#: inc/customizer/options/elements--form-inputs.php:82
+#: inc/customizer/options/footer--bottom-bar.php:168
+#: inc/customizer/options/footer--widgets-bar.php:282
+#: inc/customizer/options/header--mobile-vertical-bar.php:239
+#: inc/customizer/options/header--top-main-bottom-bar.php:288
+msgid "Text color"
+msgstr "Tekst kleur"
+
+#: inc/customizer/options/content--sidebar.php:326
+#: inc/customizer/options/elements--body.php:56
+#: inc/customizer/options/footer--bottom-bar.php:169
+#: inc/customizer/options/footer--widgets-bar.php:283
+#: inc/customizer/options/header--mobile-main-bar.php:155
+#: inc/customizer/options/header--mobile-vertical-bar.php:240
+#: inc/customizer/options/header--top-main-bottom-bar.php:289
+msgid "Link text color"
+msgstr "Tekstkleur koppelen"
+
+#: inc/customizer/options/content--sidebar.php:327
+#: inc/customizer/options/elements--body.php:57
+#: inc/customizer/options/footer--bottom-bar.php:170
+#: inc/customizer/options/footer--widgets-bar.php:284
+#: inc/customizer/options/header--mobile-main-bar.php:156
+#: inc/customizer/options/header--mobile-vertical-bar.php:241
+#: inc/customizer/options/header--top-main-bottom-bar.php:290
+msgid "Link text color :hover"
+msgstr "Tekstkleur koppelen: zweven"
+
+#: inc/customizer/options/content--sidebar.php:328
+#: inc/customizer/options/footer--widgets-bar.php:285
+msgid "Widget title text color"
+msgstr "Widget titel tekstkleur"
+
+#: inc/customizer/options/content--sidebar.php:329
+#: inc/customizer/options/footer--widgets-bar.php:286
+msgid "Widget title background color"
+msgstr "Widget titel achtergrondkleur"
+
+#: inc/customizer/options/content--sidebar.php:330
+#: inc/customizer/options/footer--widgets-bar.php:287
+msgid "Widget title border color"
+msgstr "Widget titel randkleur"
+
+#: inc/customizer/options/elements--blockquote.php:41
+msgid "Blockquote typography"
+msgstr "Blockquote-typografie"
+
+#: inc/customizer/options/elements--body.php:41
+msgid "Body (base) text typography"
+msgstr "Body (basis) tekst typografie"
+
+#: inc/customizer/options/elements--body.php:58
+msgid "Line / border color"
+msgstr "Lijn / randkleur"
+
+#: inc/customizer/options/elements--body.php:59
+#: inc/customizer/options/elements--body.php:83
+msgid "Subtle BG color"
+msgstr "Subtiele BG-kleur"
+
+#: inc/customizer/options/elements--body.php:84
+msgid "Used on &lt;code&gt;, &lt;pre&gt;, tagclouds, and archive title."
+msgstr "Gebruikt op & lt; code & gt ;, & lt; pre & gt ;, tagclouds en archieftitel."
+
+#: inc/customizer/options/elements--buttons.php:60
+#: inc/customizer/options/elements--form-inputs.php:60
+msgid "Border radius"
+msgstr "Randradius"
+
+#: inc/customizer/options/elements--buttons.php:97
+msgid "Button typography"
+msgstr "Knop typografie"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--other-elements.php:92
+#: inc/customizer/options/elements--buttons.php:113
+msgid "Background color :hover"
+msgstr "Achtergrondkleur: zweven"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--other-elements.php:93
+#: inc/customizer/options/elements--buttons.php:114
+msgid "Border color :hover"
+msgstr "Randkleur: zweven"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--other-elements.php:94
+#: inc/customizer/options/elements--buttons.php:115
+msgid "Text color :hover"
+msgstr "Tekstkleur: zweven"
+
+#: inc/customizer/options/elements--form-inputs.php:83
+msgid "Background color :focus"
+msgstr "Achtergrondkleur: focus"
+
+#: inc/customizer/options/elements--form-inputs.php:84
+msgid "Border color :focus"
+msgstr "Randkleur: focus"
+
+#: inc/customizer/options/elements--form-inputs.php:85
+msgid "Text color :focus"
+msgstr "Tekstkleur: focus"
+
+#. translators: %1$d: heading level number.
+#: inc/customizer/options/elements--headings.php:43
+msgid "Heading %1$d (H%1$d) typography"
+msgstr "Op weg naar %1$d (H %1$d ) typografie"
+
+#: inc/customizer/options/elements--headings.php:57
+msgid "Heading text color"
+msgstr "Tekstkleur aanwijzen"
+
+#: inc/customizer/options/elements--headings.php:58
+msgid "Heading text color :hover"
+msgstr "Tekstkleur kop: zweven"
+
+#: inc/customizer/options/elements--meta.php:41
+msgid "Meta typography"
+msgstr "Meta typografie"
+
+#: inc/customizer/options/elements--meta.php:54
+msgid "Meta text color"
+msgstr "Metatekstkleur"
+
+#: inc/customizer/options/elements--meta.php:55
+msgid "Meta link text color"
+msgstr "Tekstkleur meta-link"
+
+#: inc/customizer/options/elements--meta.php:56
+msgid "Meta link text color :hover"
+msgstr "Tekstkleur meta link: hover"
+
+#: inc/customizer/options/elements--small-title.php:41
+msgid "Small Title typography"
+msgstr "Typografie van de kleine titel"
+
+#: inc/customizer/options/elements--small-title.php:54
+msgid "Small Title text color"
+msgstr "Tekstkleur kleine titel"
+
+#: inc/customizer/options/elements--title.php:41
+msgid "Title typography"
+msgstr "Titel typografie"
+
+#: inc/customizer/options/elements--title.php:54
+msgid "Title text color"
+msgstr "Titel tekstkleur"
+
+#: inc/customizer/options/elements--title.php:55
+msgid "Title text color :hover"
+msgstr "Titel tekstkleur: hover"
+
+#: inc/customizer/options/footer--bottom-bar.php:27
+msgid "Merge inside Widgets Bar wrapper"
+msgstr "Samenvoegen in Widgets Bar-wrapper"
+
+#: inc/customizer/options/footer--bottom-bar.php:28
+msgid "If enabled, this section layout is limited inside the Widgets Bar content wrapper. &mdash; Widgets Bar must have at least 1 column."
+msgstr "Indien ingeschakeld, is deze sectie-indeling beperkt in de wrapper van de balk met widgets. & Mdash; Widgetsbalk moet minimaal 1 kolom bevatten."
+
+#: inc/customizer/options/footer--bottom-bar.php:53
+#: inc/customizer/options/footer--widgets-bar.php:33
+#: inc/customizer/options/header--top-main-bottom-bar.php:60
+msgid "Contained section"
+msgstr "Bevat sectie"
+
+#: inc/customizer/options/footer--builder.php:20
+#: inc/customizer/options/header--builder.php:30
+msgid "Hide"
+msgstr "Verbergen"
+
+#: inc/customizer/options/_sections.php:313
+#: inc/customizer/options/footer--builder.php:21
+msgid "Footer Builder"
+msgstr "Footer Builder"
+
+#: inc/customizer/options/footer--builder.php:41
+msgid "Widgets columns"
+msgstr "Widgets-kolommen"
+
+#: inc/customizer/options/footer--builder.php:43
+msgid "-- Disabled --"
+msgstr "- Uitgeschakeld -"
+
+#: inc/customizer/options/footer--builder.php:44
+msgid "1 column"
+msgstr "1 kolom"
+
+#: inc/customizer/options/footer--builder.php:45
+msgid "2 columns"
+msgstr "2 kolommen"
+
+#: inc/customizer/options/footer--builder.php:46
+msgid "3 columns"
+msgstr "3 kolommen"
+
+#: inc/customizer/options/footer--builder.php:47
+msgid "4 columns"
+msgstr "4 kolommen"
+
+#: inc/customizer/options/footer--builder.php:48
+msgid "5 columns"
+msgstr "5 kolommen"
+
+#: inc/customizer/options/footer--builder.php:49
+msgid "6 columns"
+msgstr "6 kolommen"
+
+#: inc/customizer/options/footer--builder.php:77
+msgid "Bottom bar elements"
+msgstr "Onderste balkelementen"
+
+#: inc/customizer/options/footer--builder.php:79
+msgid "Copyright"
+msgstr "Copyright"
+
+#: inc/customizer/options/footer--builder.php:81
+#: inc/customizer/options/header--builder.php:70
+#: inc/customizer/options/header--builder.php:112
+msgid "Social"
+msgstr "Social"
+
+#: inc/customizer/options/footer--copyright.php:29
+msgid "Copyright Text"
+msgstr "Copyright Tekst"
+
+#: inc/customizer/options/footer--copyright.php:30
+msgid "Available tags: {{year}}, {{sitename}}, {{themeauthor}}"
+msgstr "Beschikbare tags: {{year}}, {{sitename}}, {{themeauthor}}"
+
+#: inc/customizer/options/footer--social.php:23
+#: inc/customizer/options/header--social.php:23
+msgid "Social Links"
+msgstr "Sociale links"
+
+#. translators: %s: link to "Global Settings" section.
+#: inc/customizer/options/footer--social.php:26
+#: inc/customizer/options/header--social.php:26
+msgid "You can edit Social Media URLs via %s."
+msgstr "U kunt URL's van sociale media via %s bewerken."
+
+#: inc/customizer/options/_sections.php:28
+#: inc/customizer/options/footer--social.php:27
+#: inc/customizer/options/header--social.php:27
+msgid "Global Settings"
+msgstr "Algemene instellingen"
+
+#: inc/customizer/options/footer--social.php:41
+#: inc/customizer/options/header--social.php:41
+msgid "Active links"
+msgstr "Actieve koppelingen"
+
+#: inc/customizer/options/footer--social.php:66
+#: inc/customizer/options/header--social.php:66
+msgid "Open links in"
+msgstr "Open links in"
+
+#: inc/customizer/options/footer--social.php:68
+#: inc/customizer/options/header--social.php:68
+msgid "Same tab"
+msgstr "Hetzelfde tabblad"
+
+#: inc/customizer/options/footer--social.php:69
+#: inc/customizer/options/header--social.php:69
+msgid "New tab"
+msgstr "Nieuw tabblad"
+
+#: inc/customizer/options/header--builder.php:23
+msgid "Desktop"
+msgstr "Desktop"
+
+#: inc/customizer/options/header--builder.php:27
+msgid "Tablet / Mobile"
+msgstr "Tablet / mobiel"
+
+#: inc/customizer/options/_sections.php:155
+#: inc/customizer/options/header--builder.php:31
+msgid "Header Builder"
+msgstr "Header Builder"
+
+#: inc/customizer/options/header--builder.php:63
+msgid "Desktop Header"
+msgstr "Desktopkop"
+
+#: inc/customizer/options/header--builder.php:65
+#: inc/customizer/options/header--logo.php:23
+msgid "Logo"
+msgstr "Logo"
+
+#: inc/customizer/options/header--builder.php:66
+msgid "Menu"
+msgstr "Menu"
+
+#: inc/customizer/options/header--builder.php:67
+#: inc/customizer/options/header--builder.php:109
+msgid "HTML"
+msgstr "HTML"
+
+#: inc/customizer/options/header--builder.php:68
+#: inc/customizer/options/header--builder.php:110
+#: inc/customizer/options/header--search.php:23
+msgid "Search Bar"
+msgstr "Zoekbalk"
+
+#: inc/customizer/options/header--builder.php:69
+#: inc/customizer/options/header--search.php:57
+msgid "Search Dropdown"
+msgstr "Dropdown zoeken"
+
+#: inc/customizer/options/header--builder.php:73
+#: inc/customizer/options/header--builder.php:75
+msgid "Top - Right"
+msgstr "Rechtsboven"
+
+#: inc/customizer/options/header--builder.php:73
+#: inc/customizer/options/header--builder.php:75
+msgid "Top - Left"
+msgstr "Linksboven"
+
+#: inc/customizer/options/header--builder.php:74
+msgid "Top - Center"
+msgstr "Midden boven"
+
+#: inc/customizer/options/header--builder.php:76
+#: inc/customizer/options/header--builder.php:78
+msgid "Main - Right"
+msgstr "Hoofd - Rechts"
+
+#: inc/customizer/options/header--builder.php:76
+#: inc/customizer/options/header--builder.php:78
+msgid "Main - Left"
+msgstr "Hoofd - links"
+
+#: inc/customizer/options/header--builder.php:77
+msgid "Main - Center"
+msgstr "Hoofd - midden"
+
+#: inc/customizer/options/header--builder.php:79
+#: inc/customizer/options/header--builder.php:81
+msgid "Bottom - Right"
+msgstr "Rechts onder"
+
+#: inc/customizer/options/header--builder.php:79
+#: inc/customizer/options/header--builder.php:81
+msgid "Bottom - Left"
+msgstr "Linksonder"
+
+#: inc/customizer/options/header--builder.php:80
+msgid "Bottom - Center"
+msgstr "Middenonder"
+
+#: inc/customizer/options/header--builder.php:105
+msgid "Mobile Header"
+msgstr "Mobiele header"
+
+#: inc/customizer/options/header--builder.php:107
+#: inc/customizer/options/header--logo.php:69
+msgid "Mobile Logo"
+msgstr "Mobiel logo"
+
+#: inc/customizer/options/header--builder.php:111
+msgid "Search Icon"
+msgstr "Zoekpictogram"
+
+#: inc/customizer/options/header--builder.php:113
+msgid "Toggle"
+msgstr "Schakelen"
+
+#: inc/customizer/options/header--builder.php:119
+msgid "Drawer (Popup)"
+msgstr "Lade (pop-up)"
+
+#. translators: %d: number of HTML element.
+#: inc/customizer/options/header--html.php:24
+msgid "HTML %d"
+msgstr "HTML %d"
+
+#: inc/customizer/options/header--html.php:38
+msgid "Plain text, HTML tags, and shortcode are allowed."
+msgstr "Platte tekst, HTML-tags en shortcode zijn toegestaan."
+
+#: inc/customizer/options/header--html.php:65
+msgctxt "Suki Pro upsell"
+msgid "Additional \"HTML 2\" element on Header Builder"
+msgstr "Extra \\ \"HTML 2 \" -element in Header Builder"
+
+#: inc/customizer/options/header--html.php:66
+msgctxt "Suki Pro upsell"
+msgid "Additional \"HTML 3\" element on Header Builder"
+msgstr "Extra \\ \"HTML 3 \" -element in Header Builder"
+
+#: inc/customizer/options/header--logo.php:35
+msgid "Logo image"
+msgstr "Logo afbeelding"
+
+#: inc/customizer/options/header--logo.php:49
+#: inc/customizer/options/header--logo.php:95
+msgid "Max width"
+msgstr "Maximale wijdte"
+
+#: inc/customizer/options/header--logo.php:81
+msgid "Mobile Logo image"
+msgstr "Afbeelding mobiele logo"
+
+#: inc/customizer/options/header--mobile-main-bar.php:27
+#: inc/customizer/options/header--top-main-bottom-bar.php:73
+msgid "Height"
+msgstr "Hoogte"
+
+#: inc/customizer/options/header--mobile-main-bar.php:126
+#: inc/customizer/options/header--mobile-vertical-bar.php:210
+#: inc/customizer/options/header--top-main-bottom-bar.php:259
+msgid "Icon size"
+msgstr "Pictogram grootte"
+
+#: inc/customizer/options/header--mobile-vertical-bar.php:29
+msgid "Position"
+msgstr "Positie"
+
+#: inc/customizer/options/header--mobile-vertical-bar.php:47
+msgid "Elements alignment"
+msgstr "Elementen uitlijnen"
+
+#: inc/customizer/options/header--mobile-vertical-bar.php:173
+#: inc/customizer/options/header--top-main-bottom-bar.php:200
+msgid "Menu link typography"
+msgstr "Menukoppeling typografie"
+
+#: inc/customizer/options/header--mobile-vertical-bar.php:197
+#: inc/customizer/options/header--top-main-bottom-bar.php:246
+msgid "Submenu link typography"
+msgstr "Submenu koppeling typografie"
+
+#: inc/customizer/options/header--search.php:36
+msgid "Bar width"
+msgstr "Balkbreedte"
+
+#: inc/customizer/options/header--search.php:70
+msgid "Dropdown width"
+msgstr "Dropdown-breedte"
+
+#: inc/customizer/options/header--top-main-bottom-bar.php:33
+msgid "Merge inside Main Bar wrapper"
+msgstr "Voeg binnen in de Main Bar-wrapper"
+
+#: inc/customizer/options/header--top-main-bottom-bar.php:34
+msgid "If enabled, this section layout is limited inside the Main Bar content wrapper. &mdash; Main Bar must have at least 1 element."
+msgstr "Indien ingeschakeld, is deze sectie-indeling beperkt in de inhoudsboodschap van de hoofdbalk. & Mdash; Hoofdbalk moet minimaal 1 element bevatten."
+
+#: inc/customizer/options/header--top-main-bottom-bar.php:214
+msgid "Menu link hover highlight"
+msgstr "Menu link hover highlight"
+
+#: inc/customizer/options/header--top-main-bottom-bar.php:218
+msgid "Background"
+msgstr "Achtergrond"
+
+#: inc/customizer/options/header--top-main-bottom-bar.php:219
+msgid "Underline"
+msgstr "Onderstrepen"
+
+#: inc/customizer/options/header--top-main-bottom-bar.php:220
+msgid "Border top"
+msgstr "Rand bovenaan"
+
+#: inc/customizer/options/header--top-main-bottom-bar.php:291
+msgid "Menu link highlight color"
+msgstr "Menu-link markeer kleur"
+
+#: inc/customizer/options/page-container.php:29
+msgid "Page layout"
+msgstr "Pagina layout"
+
+#: inc/customizer/options/page-container.php:31
+msgid "Full width"
+msgstr "Volle breedte"
+
+#: inc/customizer/options/page-container.php:32
+msgid "Boxed"
+msgstr "Omkaderd"
+
+#: inc/customizer/options/page-container.php:53
+msgid "Page background color"
+msgstr "Pagina-achtergrondkleur"
+
+#: inc/customizer/options/page-container.php:67
+msgid "Content Wrapper"
+msgstr "Content Wrapper"
+
+#: inc/customizer/options/page-container.php:80
+msgid "Content wrapper width"
+msgstr "Inhoud wikkelbreedte"
+
+#: inc/customizer/options/page-container.php:81
+msgid "The maximum width of center content wrapper."
+msgstr "De maximale breedte van wrapper voor middeninhoud."
+
+#: inc/customizer/options/page-container.php:102
+msgid "Boxed Page"
+msgstr "In dozen gedane pagina"
+
+#: inc/customizer/options/page-container.php:115
+msgid "Boxed page max width"
+msgstr "Max. Breedte boxed pagina"
+
+#: inc/customizer/options/page-container.php:135
+msgid "Boxed page shadow"
+msgstr "Boxed pagina schaduw"
+
+#: inc/customizer/options/page-container.php:155
+msgid "Outside background color"
+msgstr "Buiten achtergrondkleur"
+
+#: inc/customizer/options/page-container.php:168
+msgid "Outside background image"
+msgstr "Buiten achtergrondafbeelding"
+
+#: inc/customizer/options/page-container.php:183
+msgid "Outside background position"
+msgstr "Buiten achtergrondpositie"
+
+#: inc/customizer/options/page-container.php:185
+msgid "Left top"
+msgstr "Bovenaan links"
+
+#: inc/customizer/options/page-container.php:186
+msgid "Left center"
+msgstr "Links midden"
+
+#: inc/customizer/options/page-container.php:187
+msgid "Left bottom"
+msgstr "Links onderaan"
+
+#: inc/customizer/options/page-container.php:188
+msgid "Center top"
+msgstr "Midden boven"
+
+#: inc/customizer/options/page-container.php:189
+msgid "Center center"
+msgstr "Centrum midden"
+
+#: inc/customizer/options/page-container.php:190
+msgid "Center bottom"
+msgstr "Midden onder"
+
+#: inc/customizer/options/page-container.php:191
+msgid "Right top"
+msgstr "Rechtsboven"
+
+#: inc/customizer/options/page-container.php:192
+msgid "Right center"
+msgstr "Rechts midden"
+
+#: inc/customizer/options/page-container.php:193
+msgid "Right bottom"
+msgstr "Rechts beneden"
+
+#: inc/customizer/options/page-container.php:208
+msgid "Outside background size"
+msgstr "Buiten de achtergrondgrootte"
+
+#: inc/customizer/options/page-container.php:211
+msgid "Cover"
+msgstr "Bedekken"
+
+#: inc/customizer/options/page-container.php:212
+msgid "Contain"
+msgstr "Bevatten"
+
+#: inc/customizer/options/page-container.php:227
+msgid "Outside background repeat"
+msgstr "Buiten achtergrond herhalen"
+
+#: inc/customizer/options/page-container.php:229
+msgid "No repeat"
+msgstr "Geen herhaling"
+
+#: inc/customizer/options/page-container.php:230
+msgid "Repeat X (horizontally)"
+msgstr "Herhaal X (horizontaal)"
+
+#: inc/customizer/options/page-container.php:231
+msgid "Repeat Y (vertically)"
+msgstr "Herhaal Y (verticaal)"
+
+#: inc/customizer/options/page-container.php:232
+msgid "Repeat both axis"
+msgstr "Herhaal beide assen"
+
+#: inc/customizer/options/page-container.php:247
+msgid "Outside background attachment"
+msgstr "Buiten achtergrondbijlage"
+
+#: inc/customizer/options/page-container.php:249
+#: inc/customizer/options/page-header.php:336
+msgid "Scroll"
+msgstr "Rol"
+
+#: inc/customizer/options/page-container.php:250
+#: inc/customizer/options/page-header.php:337
+msgid "Fixed"
+msgstr "Vast"
+
+#: inc/customizer/options/page-header.php:27
+msgid "Enable Page Header"
+msgstr "Schakel Paginakop in"
+
+#: inc/customizer/options/page-header.php:124
+msgid "Page title & breadcrumb layout"
+msgstr "Paginatitel en breadcrumb-opmaak"
+
+#: inc/customizer/options/page-header.php:126
+msgid "Centered (all)"
+msgstr "Gecentreerd (alle)"
+
+#: inc/customizer/options/page-header.php:127
+#: inc/customizer/options/page-header.php:128
+msgid "Right (all)"
+msgstr "Rechts (alles)"
+
+#: inc/customizer/options/page-header.php:127
+#: inc/customizer/options/page-header.php:128
+msgid "Left (all)"
+msgstr "Links (alles)"
+
+#: inc/customizer/options/page-header.php:129
+#: inc/customizer/options/page-header.php:130
+msgid "Right title -- Left breadcrumb"
+msgstr "Juiste titel - Linker broodkruimel"
+
+#: inc/customizer/options/page-header.php:129
+#: inc/customizer/options/page-header.php:130
+msgid "Left title -- Right breadcrumb"
+msgstr "Linker titel - Rechts broodkruimel"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-catalog.php:92
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:27
+#: inc/customizer/options/page-header.php:144
+msgid "Show breadcrumb"
+msgstr "Toon broodkruimel"
+
+#: inc/customizer/options/page-header.php:145
+msgid "You need to install an additional plugin in order to display breadcrumb. Please choose one from the available plugins below. The selected plugin must be installed and active."
+msgstr "U moet een extra plug-in installeren om breadcrumb weer te geven. Kies een van de beschikbare plug-ins hieronder. De geselecteerde plug-in moet zijn geïnstalleerd en actief zijn."
+
+#: inc/customizer/options/page-header.php:161
+msgid "Breadcrumb Trail"
+msgstr "Broodkruimel spoor"
+
+#: inc/customizer/options/page-header.php:162
+msgid "Breadcrumb NavXT"
+msgstr "Broodkruimel NavXT"
+
+#: inc/customizer/options/page-header.php:163
+msgid "Yoast SEO"
+msgstr "Yoast SEO"
+
+#: inc/customizer/options/page-header.php:224
+msgid "Page title typography"
+msgstr "Paginatitel-typografie"
+
+#: inc/customizer/options/page-header.php:256
+msgid "Breadcrumb typography"
+msgstr "Broodkruim typografie"
+
+#: inc/customizer/options/page-header.php:278
+msgid "Page title text color"
+msgstr "Tekstkleur van de paginatitel"
+
+#: inc/customizer/options/page-header.php:279
+msgid "Breadcrumb text color"
+msgstr "Broodkruimel tekstkleur"
+
+#: inc/customizer/options/page-header.php:280
+msgid "Breadcrumb link text color"
+msgstr "De kleur van de breadcrumb-linktekst"
+
+#: inc/customizer/options/page-header.php:281
+msgid "Breadcrumb link text color :hover"
+msgstr "Tekstkleur breadcrumb link: hover"
+
+#: inc/customizer/options/page-header.php:306
+msgid "Background Image (Global Default)"
+msgstr "Achtergrondafbeelding (algemene standaard)"
+
+#: inc/customizer/options/page-header.php:319
+msgid "Background image"
+msgstr "Achtergrond afbeelding"
+
+#: inc/customizer/options/page-header.php:334
+msgid "Background attachment"
+msgstr "Achtergrond bijlage"
+
+#: inc/customizer/options/page-header.php:351
+msgid "Background color overlay opacity"
+msgstr "Overdekking van achtergrondkleur overlay"
+
+#: inc/customizer/options/settings--google-fonts.php:23
+msgid "Google Fonts would be served from Google's server. There are chances that visitor's data might be collected by Google. If you do not accept this, you can use \"Self-Hosted Google Fonts\" plugin to self-host the fonts on your own server. &mdash; If you are not using any Google Fonts on your settings, you can ignore this notice."
+msgstr "Google Fonts zou worden geserveerd via de server van Google. Er zijn kansen dat bezoekersgegevens door Google worden verzameld. Als u dit niet accepteert, kunt u de plug-in \\ \"Self-Hosted Google Fonts \" gebruiken om de lettertypen zelf te hosten op uw eigen server. & Mdash; Als u geen Google-lettertypen gebruikt in uw instellingen, kunt u deze melding negeren."
+
+#: inc/customizer/options/settings--google-fonts.php:35
+msgid "Additional character subsets"
+msgstr "Extra tekensubsets"
+
+#: inc/customizer/options/settings--google-fonts.php:36
+msgid "\"Latin\" character subset is included by default."
+msgstr "\\ \"Latijnse \" tekensubset is standaard inbegrepen."
+
+#: inc/customizer/options/_sections.php:14
+msgctxt "Suki Pro upsell"
+msgid "Premium Modules Available"
+msgstr "Premium-modules beschikbaar"
+
+#: inc/customizer/options/_sections.php:47
+msgid "Customizer CSS"
+msgstr "Customizer CSS"
+
+#: inc/customizer/options/_sections.php:54
+msgid "Google Fonts"
+msgstr "Google Fonts"
+
+#: inc/customizer/options/_sections.php:61
+msgid "Social Media Links"
+msgstr "Social Media Links"
+
+#: inc/customizer/options/_sections.php:62
+msgid "Please use full URL format with http:// or https://"
+msgstr "Gebruik de volledige URL-indeling met http: // of https: //"
+
+#: inc/customizer/options/_sections.php:75
+msgid "General Elements"
+msgstr "Algemene elementen"
+
+#: inc/customizer/options/_sections.php:82
+msgid "The global settings of body typography and colors."
+msgstr "De algemene instellingen van lichaamstypografie en kleuren."
+
+#: inc/customizer/options/_sections.php:89
+msgid "Headings (H1 - H4)"
+msgstr "Koppen (H1 - H4)"
+
+#: inc/customizer/options/_sections.php:90
+msgid "Used on all H1 - H4 tags globally."
+msgstr "Wordt wereldwijd op alle H1 - H4-tags gebruikt."
+
+#: inc/customizer/options/_sections.php:97
+msgid "Blockquote"
+msgstr "Blokquote"
+
+#: inc/customizer/options/_sections.php:104
+msgid "Form Input"
+msgstr "Formulierinvoer"
+
+#: inc/customizer/options/_sections.php:111
+msgid "Button"
+msgstr "Knop"
+
+#: inc/customizer/options/_sections.php:119
+msgid "Used on Default Post title and Static Page title. By default, it uses H1 styles."
+msgstr "Gebruikt op standaard berichttitel en statische paginatitel. Standaard wordt H1-stijlen gebruikt."
+
+#: inc/customizer/options/_sections.php:126
+msgid "Small Title"
+msgstr "Kleine titel"
+
+#: inc/customizer/options/_sections.php:127
+msgid "Used on Grid Post title, and other subsidiary headings like \"Leave a Reply\", \"2 Comments\", etc. By default, it uses H3 styles."
+msgstr "Gebruikt op Grid Post-titel en andere aanvullende koppen zoals \\ \"Leave a Reply \", \\ \"2 Comments \", etc. Standaard maakt het gebruik van H3-stijlen."
+
+#: inc/customizer/options/_sections.php:134
+msgid "Meta Info"
+msgstr "Meta Info"
+
+#: inc/customizer/options/_sections.php:135
+msgid "Used on Post meta, Widget meta, Comments meta, and other small info text."
+msgstr "Gebruikt op bericht meta, widget meta, opmerkingen meta en andere kleine info-tekst."
+
+#: inc/customizer/options/_sections.php:142
+msgid "Page Canvas & Wrapper"
+msgstr "Page Canvas & Wrapper"
+
+#: inc/customizer/options/_sections.php:168
+msgid "Top Bar"
+msgstr "Bovenste balk"
+
+#: inc/customizer/options/_sections.php:175
+msgid "Main Bar"
+msgstr "Hoofdbalk"
+
+#: inc/customizer/options/_sections.php:182
+#: inc/customizer/options/_sections.php:333
+msgid "Bottom Bar"
+msgstr "Onderste balk"
+
+#: inc/customizer/options/_sections.php:195
+msgid "Mobile Main Bar"
+msgstr "Mobiele hoofdbalk"
+
+#: inc/customizer/options/_sections.php:202
+msgid "Mobile Drawer (Popup)"
+msgstr "Mobiele lade (pop-up)"
+
+#: inc/customizer/options/_sections.php:215
+msgid "Element: Logo"
+msgstr "Element: logo"
+
+#: inc/customizer/options/_sections.php:222
+msgid "Element: Search"
+msgstr "Element: zoeken"
+
+#: inc/customizer/options/_sections.php:229
+msgid "Element: HTML(s)"
+msgstr "Element: HTML (s)"
+
+#: inc/customizer/options/_sections.php:236
+#: inc/customizer/options/_sections.php:367
+msgid "Element: Social"
+msgstr "Element: sociaal"
+
+#: inc/customizer/options/_sections.php:254
+msgctxt "Suki Pro upsell"
+msgid "More header elements"
+msgstr "Meer header-elementen"
+
+#: inc/customizer/options/_sections.php:255
+msgctxt "Suki Pro upsell"
+msgid "Vertical bar (drawer & permanent style)"
+msgstr "Verticale balk (lade en permanente stijl)"
+
+#: inc/customizer/options/_sections.php:256
+msgctxt "Suki Pro upsell"
+msgid "Transparent header"
+msgstr "Transparante header"
+
+#: inc/customizer/options/_sections.php:258
+msgctxt "Suki Pro upsell"
+msgid "Sticky header"
+msgstr "Sticky header"
+
+#: inc/customizer/options/_sections.php:257
+msgctxt "Suki Pro upsell"
+msgid "Alternate header colors"
+msgstr "Alternatieve koptekstkleuren"
+
+#: inc/customizer/options/_sections.php:279
+msgid "Content Section"
+msgstr "Inhoudsgedeelte"
+
+#: inc/customizer/options/_sections.php:292
+msgid "Main Content Area"
+msgstr "Hoofdinhoudsgebied"
+
+#: inc/customizer/options/_sections.php:299
+msgid "Sidebar Area"
+msgstr "Zijbalkgebied"
+
+#: inc/customizer/options/_sections.php:326
+msgid "Widgets Bar"
+msgstr "Widgets-balk"
+
+#: inc/customizer/options/_sections.php:346
+msgid "Element: Widgets Column(s)"
+msgstr "Element: Widgets Kolom (s)"
+
+#: inc/customizer/options/_sections.php:353
+msgid "Element: Copyright"
+msgstr "Element: auteursrecht"
+
+#: inc/customizer/options/_sections.php:360
+msgid "Element: Menu"
+msgstr "Element: Menu"
+
+#: inc/customizer/options/_sections.php:399
+msgid "Blog"
+msgstr "Blog"
+
+#: inc/customizer/options/_sections.php:405
+msgid "Posts Index"
+msgstr "Berichten Index"
+
+#: inc/customizer/options/_sections.php:411
+msgid "Single Post"
+msgstr "Enkele post"
+
+#. translators: %s: link to "Post Layout: Default" section.
+#: inc/customizer/options/_sections.php:414
+msgid "\"Default\" post layout is used as the main post layout. You can configure it on %s"
+msgstr "\\ \"Standaard \" berichtlay-out wordt gebruikt als de hoofdpostlay-out. U kunt het op %s configureren"
+
+#: inc/customizer/options/_sections.php:415
+#: inc/customizer/options/_sections.php:427
+msgid "Post Layout: Default"
+msgstr "Berichtindeling: standaard"
+
+#: inc/customizer/options/_sections.php:433
+msgid "Post Layout: Grid"
+msgstr "Berichtindeling: raster"
+
+#: inc/customizer/options/_sections.php:446
+msgid "Page Settings allows you to override global configuration of page elements (Header, Title Bar, Content, and Footer) on each different page type."
+msgstr "Met Pagina-instellingen kunt u de algemene configuratie van pagina-elementen (koptekst, titelbalk, inhoud en voettekst) op elk verschillend paginatype overschrijven."
+
+#: inc/compatibilities/woocommerce/customizer/options/header--builder.php:26
+#: inc/compatibilities/woocommerce/customizer/options/header--builder.php:39
+msgid "Cart Link"
+msgstr "Winkelwagen Link"
+
+#: inc/compatibilities/woocommerce/customizer/options/header--builder.php:27
+msgid "Cart Dropdown"
+msgstr "Dropdown van winkelwagen"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--cart.php:23
+msgid "Cross-Sells"
+msgstr "Cross-Sells"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--cart.php:35
+msgid "Show cross-sells"
+msgstr "Cross-sells weergeven"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--cart.php:36
+msgid "Display cross-sells as configured on Edit Product page > Product Data > Linked Products > Cross-sells."
+msgstr "Cross-sells weergeven zoals geconfigureerd op Productpagina bewerken> Productgegevens> Gelinkte producten> Cross-sells."
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--cart.php:48
+msgid "Cross-sells grid columns"
+msgstr "Cross-verkoopt rasterkolommen"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--checkout.php:35
+msgid "Use 2 columns layout"
+msgstr "Gebruik de indeling van 2 kolommen"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--other-elements.php:23
+msgid "Sale badge"
+msgstr "Verkoop badge"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--other-elements.php:29
+msgid "Badge background color"
+msgstr "Badge achtergrondkleur"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--other-elements.php:30
+msgid "Badge text color"
+msgstr "Tekstkleur badge"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--other-elements.php:55
+msgid "Review star"
+msgstr "Review ster"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--other-elements.php:68
+msgid "Rating (&#9733;) color"
+msgstr "Beoordeling (& # 9733;) kleur"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--other-elements.php:82
+msgid "Alt Button"
+msgstr "Alt-knop"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--other-elements.php:83
+msgid "Used in single product \"Add to Cart\" and Checkout page"
+msgstr "Gebruikt in één product \\ \"Add to Cart \" en Checkout-pagina"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-catalog.php:36
+msgid "Max products per page"
+msgstr "Max producten per pagina"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-catalog.php:37
+msgid "Empty / 0 = disabled; -1 = Show all."
+msgstr "Leeg / 0 = uitgeschakeld; -1 = Alles weergeven."
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-catalog.php:53
+msgid "Grid columns"
+msgstr "Raster kolommen"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-catalog.php:80
+msgid "Show page header title"
+msgstr "Toon pagina koptitel"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-catalog.php:104
+msgid "Show products filter"
+msgstr "Toon producten filter"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:41
+msgid "Gallery"
+msgstr "Galerij"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:53
+msgid "Show gallery"
+msgstr "Toon galerij"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:66
+msgid "Gallery column Width"
+msgstr "Galerij kolom Breedte"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:110
+msgid "Enable zoom"
+msgstr "Zoom inschakelen"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:122
+msgid "Enable lightbox"
+msgstr "Schakel lightbox in"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:137
+msgid "Tabs"
+msgstr "Tabs"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:149
+msgid "Show tabs"
+msgstr "Toon tabbladen"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:164
+msgid "Up-Sells"
+msgstr "Up-Sells"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:176
+msgid "Show up-sells"
+msgstr "Show-sells"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:177
+msgid "Display up-sells as configured on Edit Product page > Product Data > Linked Products > Up-sells."
+msgstr "Display up-verkoopt zoals geconfigureerd op Productpagina bewerken> Productgegevens> Gelinkte producten> Up-sells."
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:211
+msgid "Related Products"
+msgstr "Gerelateerde producten"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:223
+msgid "Show related products"
+msgstr "Toon gerelateerde producten"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:237
+msgid "Max products shown"
+msgstr "Max producten getoond"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:238
+msgid "0 = disabled; -1 = Show all."
+msgstr "0 = uitgeschakeld; -1 = Alles weergeven."
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--products-grid.php:28
+msgid "Grid columns gutter"
+msgstr "Raster kolommen goot"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--products-grid.php:54
+msgid "Show \"add to cart\""
+msgstr "Toon \"Voeg toe aan winkelwagen\""
+
+#: inc/compatibilities/woocommerce/customizer/options/_sections.php:26
+msgid "Single Product"
+msgstr "Eén product"
+
+#: inc/compatibilities/woocommerce/customizer/options/_sections.php:52
+msgid "Products Grid"
+msgstr "Producten Grid"
+
+#: inc/compatibilities/woocommerce/customizer/options/_sections.php:53
+msgid "Global styles for products grid as used in main product catalog page, related products, up-sells, cross-sells, and products shortcodes."
+msgstr "Globale stijlen voor productenraster zoals gebruikt op de belangrijkste productcataloguspagina, gerelateerde producten, up-sells, cross-sells en shortcodes voor producten."
+
+#: inc/compatibilities/woocommerce/customizer/options/_sections.php:60
+msgid "Other Elements"
+msgstr "Andere elementen"
+
+#: inc/template-tags.php:32
+msgid "Assign menu to this location"
+msgstr "Wijs menu aan deze locatie toe"
+
+#: inc/customizer/options/page-settings.php:207
+msgid "Page header background image"
+msgstr "Achtergrondafbeelding paginakop"
+
+#: inc/customizer/options/page-settings.php:197
+msgid "Custom"
+msgstr "Aangepast"
+
+#. translators: %s: singular post type name
+#: inc/customizer/options/page-settings.php:193
+msgid "Use %s's featured image (if specified)"
+msgstr "Gebruik %s uitgelichte afbeelding (indien opgegeven)"
+
+#. translators: %s: plural post type name
+#: inc/customizer/options/page-settings.php:191
+msgid "Same as %s archive"
+msgstr "Hetzelfde als %s archief"
+
+#. translators: %s: link to "Page Settings" section.
+#: inc/customizer/options/page-header.php:30
+msgid "This is global default setting, optionally you can enable / disable Page Header for each page type via %s."
+msgstr "Dit is de standaardinstelling, optioneel kunt u de paginakop voor elk paginatype in- of uitschakelen via %s."
+
+#: inc/class-suki.php:213
+msgid "Footer Bottom Menu"
+msgstr "Voettekst onderste menu"
+
+#. translators: %d: number of Header Menu.
+#: inc/class-suki.php:211
+msgid "Header Menu %d"
+msgstr "Header Menu %d"
+
+#. translators: %s: theme name.
+#: inc/admin/class-suki-admin.php:376
+msgid "Welcome to %s!"
+msgstr "Welkom bij %s!"
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:411
+#: inc/customizer/options/page-settings.php:179
+msgid "Enabled"
+msgstr "Ingeschakeld"
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:410
+#: inc/customizer/options/page-settings.php:178
+msgid "Disabled"
+msgstr "uitgeschakeld"
+
+#: inc/admin/class-suki-admin-metabox-page-settings.php:401
+#: inc/customizer/options/page-settings.php:175
+msgid "Page header"
+msgstr "Paginakop"
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:224
+msgid "Display linked products and similar products within same categories or tags. Products that have been displayed on \"Up-sells\" section will not be included."
+msgstr "Toon gelinkte producten en vergelijkbare producten binnen dezelfde categorieën of tags. Producten die zijn weergegeven in \"Up-sells \" zullen niet worden ingesloten."
+
+#: inc/compatibilities/woocommerce/customizer/options/woocommerce--product-single.php:86
+msgid "Gap with summary column"
+msgstr "Tussenruimte met samenvattende kolom"
+
+#: inc/customizer/options/elements--small-title.php:55
+msgid "Small Title text color :hover"
+msgstr "Tekstkleur kleine titel: zweven"
+
+#. Theme URI of the plugin/theme
+msgid "https://sukiwp.com/"
+msgstr "https://sukiwp.com/"
+
+#. Author of the plugin/theme
+msgid "SukiWP"
+msgstr "SukiWP"
+
+#. Author URI of the plugin/theme
+msgid "https://sukiwp.com/about/"
+msgstr "https://sukiwp.com/about/"

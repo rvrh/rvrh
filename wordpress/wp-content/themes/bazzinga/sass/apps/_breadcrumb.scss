@@ -1,0 +1,48 @@
+ 
+//BreadCrumb
+
+ .bazz_main_heading{
+
+ 	&__1{
+
+ 		.bazz_breadcrumb{
+ 			color:$gray-500;
+ 			@include font-size(1.2);
+ 			font-style:italic;
+ 			position:relative;
+ 			display:inline-block;
+
+
+ 			&:after{
+ 				background-color:$gray-500;
+ 				height:3px;
+ 				position:absolute;
+ 				content:'';
+ 				bottom:-10px;
+ 				width:100%;
+ 				left:0
+ 			}
+
+ 			a{
+ 				color:$gray-500;
+
+ 				&:hover{
+ 					color:$red;
+ 				}
+ 			}
+ 		}
+ 			
+ 			span[property="itemListElement"]{
+ 			color:$gray-500;
+ 		}
+
+ 	}
+ 
+ }
+
+
+
+
+
+
+

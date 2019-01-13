@@ -1,0 +1,61 @@
+//Call to Action
+
+.homepage_work_with_us_wrap{
+	background-color:$color__background-dark;
+	padding:3rem;
+
+	@include mq($min-width: 768px) {
+		padding:5rem;
+	}
+
+	h1{
+		font-style:italic;
+		font-weight:300;
+	}
+
+
+}
+
+.homepage_calltoaction_wrap{
+	padding:3rem 0;
+	position:relative;
+	background-color:$red;
+
+	.article-post{
+		padding:2rem;
+	}
+
+	@include mq($min-width: 768px) {
+		padding:5rem;
+	}
+
+	&:before{
+
+		@include mq($min-width: 768px) {
+			content:'';
+			width:40%;
+			height:100%;
+			position:absolute;
+			top:0;
+			bottom:0;
+			left:0;
+			right:0;
+			background-color:$gray-100;
+		}
+		
+	}
+
+	&__right{
+		margin-top:2rem;
+
+		@include mq($min-width: 768px) {
+			padding:0rem;
+		}
+	}
+	
+}
+
+.bazzInsta{
+	padding-bottom:0 !important;
+}
+

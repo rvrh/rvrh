@@ -1,0 +1,150 @@
+ 
+//Loader
+.no-js #loader { display: none;  }
+ 
+
+.preloader {
+	background: $gray-800;
+	bottom: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+	margin:auto;
+	height:100%;
+}
+
+.preloading-icon {
+	  width: 60px;
+    height: 60px;
+    position: absolute;
+    top: -30px;
+    left: 0;
+    bottom: 0px;
+    right: 0;
+    margin: auto;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+#preview-area{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 60px;
+    right: 0;
+    margin: auto;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+   }
+
+
+.bazz-folding-cube {
+  margin: 20px auto;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  -webkit-transform: rotateZ(45deg);
+          transform: rotateZ(45deg);
+   z-index:99999;
+}
+
+.bazz-folding-cube .bazz-cube {
+  float: left;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1); 
+}
+.bazz-folding-cube .bazz-cube:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: $red;
+  -webkit-animation: sk-foldCubeAngle 2.4s infinite  linear both;
+          animation: sk-foldCubeAngle 2.4s infinite linear both;
+  -webkit-transform-origin: 100% 100%;
+      -ms-transform-origin: 100% 100%;
+          transform-origin: 100% 100%;
+           background-size: cover;
+         
+}
+.bazz-folding-cube .bazz-cube2 {
+  -webkit-transform: scale(1.1) rotateZ(90deg);
+          transform: scale(1.1) rotateZ(90deg);
+             
+
+        
+}
+.bazz-folding-cube .bazz-cube3 {
+  -webkit-transform: scale(1.1) rotateZ(180deg);
+          transform: scale(1.1) rotateZ(180deg);
+
+              
+           
+}
+.bazz-folding-cube .bazz-cube4 {
+  -webkit-transform: scale(1.1) rotateZ(270deg);
+          transform: scale(1.1) rotateZ(270deg);
+            
+}
+.bazz-folding-cube .bazz-cube2:before {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+        
+}
+.bazz-folding-cube .bazz-cube3:before {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s; 
+
+}
+.bazz-folding-cube .bazz-cube4:before {
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+@-webkit-keyframes sk-foldCubeAngle {
+  0%, 10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+            transform: perspective(140px) rotateX(-180deg);
+    opacity: 0; 
+  } 25%, 75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+            transform: perspective(140px) rotateX(0deg);
+    opacity: 1; 
+  } 90%, 100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+            transform: perspective(140px) rotateY(180deg);
+    opacity: 0; 
+  } 
+}
+
+@keyframes sk-foldCubeAngle {
+  0%, 10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+            transform: perspective(140px) rotateX(-180deg);
+    opacity: 0; 
+  } 25%, 75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+            transform: perspective(140px) rotateX(0deg);
+    opacity: 1; 
+  } 90%, 100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+            transform: perspective(140px) rotateY(180deg);
+    opacity: 0; 
+  }
+}
