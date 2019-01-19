@@ -98,9 +98,25 @@ if ( ! function_exists( 'mlogfree_cover' ) ) {
         <?php $cover_url = mlogfree_home_cover_image(); ?>
         <?php if( !empty( $cover_url ) && is_home() && is_paged() == FALSE ) { ?>
             <div id="mlogfree_cover" style="background-image:url(<?php echo esc_url( $cover_url );  ?>)">
-                <div class="moc-lop-phu"></div>
+                <div class="moc-lop-phu">
+                
+                </div>
                 <div class="moc-cover-text">
                     <span class="cover-title"><?php echo esc_attr( mlogfree_home_cover_title() ); ?></span>
+                    <div>
+                    <form name="loginform" id="loginform" action="https://www.rvrh.com/blog/wp-login.php" method="post">
+                        <p class="submit">
+                            <label for="user_login">Username or Email Address<br />
+                            <input type="text" name="log" id="user_login" aria-describedby="login_error" class="input" value="" size="20" /></label>
+                        </p>
+                       
+                        <p class="submit">
+                            <input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="Log In" />
+                            <input type="hidden" name="redirect_to" value="https://www.rvrh.com/blog/wp-admin/" />
+                            <input type="hidden" name="testcookie" value="1" />
+                        </p>
+                    </form>
+                    </div>
                     <span class="cover-desc"><?php echo esc_attr( mlogfree_home_cover_desc() ); ?></span>
                 </div>
                 <a href="#site-header" class="scroll-downnbt light-textnbt">

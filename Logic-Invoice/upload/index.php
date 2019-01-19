@@ -1,7 +1,7 @@
 <?php
 // Configuration
-if (file_exists('config.php')) {
-    require_once('config.php');
+if (file_exists('/home/ubuntu/logic-invoice-config.php')) {
+    require_once('/home/ubuntu/logic-invoice-config.php');
 
     define('_URL', APP_URL);
     define('_SURL', APP_SURL);
